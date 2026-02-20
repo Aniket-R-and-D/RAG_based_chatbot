@@ -1,0 +1,3204 @@
+[
+    {
+        "id": "qa_001",
+        "question": "What does HMS stand for in the context of industrial control panels?",
+        "answer": "HMS stands for Human Machine System (or Human Machine Station), referring to the integrated panel combining HMI displays, communication gateways, and control logic to interface between operators and industrial processes.",
+        "category": "General Knowledge",
+        "subcategory": "Terminology",
+        "product": "HMS Panel",
+        "tags": [
+            "HMS",
+            "acronym",
+            "definition",
+            "HMI",
+            "overview"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_002",
+        "question": "What is the primary function of an HMS panel in a process control system?",
+        "answer": "The primary function is to act as the central interface between field devices (sensors, actuators) and higher-level systems (SCADA, DCS), enabling monitoring, control, data acquisition, and alarm management.",
+        "category": "General Knowledge",
+        "subcategory": "System Overview",
+        "product": "HMS Panel",
+        "tags": [
+            "function",
+            "SCADA",
+            "DCS",
+            "process control",
+            "overview"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_003",
+        "question": "List the main hardware components typically found in an HMS panel.",
+        "answer": "Main components include: CPU/controller module, power supply unit, digital and analog I/O modules, communication/gateway modules, HMI display or touchscreen, terminal blocks, circuit breakers and fuses, surge protection devices (SPDs), and an Ethernet switch.",
+        "category": "General Knowledge",
+        "subcategory": "Hardware",
+        "product": "HMS Panel",
+        "tags": [
+            "hardware",
+            "components",
+            "CPU",
+            "I/O",
+            "power supply",
+            "overview"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_004",
+        "question": "What is the difference between an HMI and an HMS panel?",
+        "answer": "An HMI (Human Machine Interface) is the display or touchscreen used for operator interaction only. An HMS panel is a complete integrated system that includes the HMI plus communication gateways, I/O modules, power supply, and control logic, all housed within one enclosure.",
+        "category": "General Knowledge",
+        "subcategory": "Terminology",
+        "product": "HMS Panel",
+        "tags": [
+            "HMI",
+            "HMS",
+            "difference",
+            "definition",
+            "overview"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_005",
+        "question": "What communication protocols are most commonly supported by HMS panels?",
+        "answer": "Commonly supported protocols include Modbus RTU, Modbus TCP/IP, PROFIBUS DP, PROFINET, EtherNet/IP, CANopen, DeviceNet, BACnet, HART, OPC UA, and MQTT, depending on the HMS model and installed gateway modules.",
+        "category": "General Knowledge",
+        "subcategory": "Communication",
+        "product": "HMS Panel",
+        "tags": [
+            "protocols",
+            "Modbus",
+            "PROFIBUS",
+            "EtherNet/IP",
+            "communication"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_006",
+        "question": "What are the standard voltage ratings used in HMS panels (AC and DC)?",
+        "answer": "HMS panels typically operate with 85–264V AC (universal input) for the main power supply, and internally distribute 24V DC for modules, I/O, and field devices. Some panels also support 110V AC or 48V DC depending on the application.",
+        "category": "General Knowledge",
+        "subcategory": "Electrical",
+        "product": "HMS Panel",
+        "tags": [
+            "voltage",
+            "24VDC",
+            "AC",
+            "DC",
+            "power",
+            "ratings"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_007",
+        "question": "What is the purpose of a watchdog timer in an HMS panel?",
+        "answer": "A watchdog timer is a hardware or software counter that automatically resets or restarts the HMS panel CPU if the main program becomes unresponsive or hangs. It ensures system reliability by recovering from software lockups without manual intervention.",
+        "category": "General Knowledge",
+        "subcategory": "System Features",
+        "product": "HMS Panel",
+        "tags": [
+            "watchdog",
+            "timer",
+            "CPU",
+            "reset",
+            "reliability"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_008",
+        "question": "Describe the role of the CPU module in an HMS panel.",
+        "answer": "The CPU module is the brain of the HMS panel. It executes the user program, manages I/O data, handles communication with field devices and SCADA systems, processes alarms, and coordinates all functions of the panel including data logging and event handling.",
+        "category": "General Knowledge",
+        "subcategory": "Hardware",
+        "product": "HMS Panel",
+        "tags": [
+            "CPU",
+            "module",
+            "processing",
+            "program",
+            "control"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_009",
+        "question": "What is the significance of the IP rating on an HMS panel enclosure?",
+        "answer": "The IP (Ingress Protection) rating indicates the level of protection the enclosure provides against solid particles and liquids. For example, IP65 means dust-tight and protected against water jets. The correct IP rating must match the environmental conditions of the installation site.",
+        "category": "General Knowledge",
+        "subcategory": "Enclosure",
+        "product": "HMS Panel",
+        "tags": [
+            "IP rating",
+            "enclosure",
+            "ingress protection",
+            "dust",
+            "water"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_010",
+        "question": "What is the function of the power supply module in an HMS panel?",
+        "answer": "The power supply module converts incoming mains AC voltage to regulated DC voltage (typically 24V DC) required by the panel modules, I/O cards, and field devices. It also provides overcurrent protection, filtering, and sometimes battery backup functionality.",
+        "category": "General Knowledge",
+        "subcategory": "Power Supply",
+        "product": "HMS Panel",
+        "tags": [
+            "power supply",
+            "24VDC",
+            "regulation",
+            "conversion",
+            "module"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_011",
+        "question": "What is a fieldbus and how is it used in HMS panel communication?",
+        "answer": "A fieldbus is a digital, serial, multi-drop communication network used to connect field devices (sensors, actuators, drives) to a control system. In HMS panels, fieldbus networks such as PROFIBUS DP or CANopen replace point-to-point wiring, reducing cable costs and enabling diagnostics.",
+        "category": "General Knowledge",
+        "subcategory": "Communication",
+        "product": "HMS Panel",
+        "tags": [
+            "fieldbus",
+            "PROFIBUS",
+            "CANopen",
+            "serial",
+            "network"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_012",
+        "question": "What is the difference between digital I/O and analog I/O in HMS panels?",
+        "answer": "Digital I/O handles discrete ON/OFF signals (e.g., 0V or 24V DC) used for switches, relays, and binary status. Analog I/O handles continuous signals such as 4–20mA or 0–10V representing process variables like temperature, pressure, and flow.",
+        "category": "General Knowledge",
+        "subcategory": "I/O",
+        "product": "HMS Panel",
+        "tags": [
+            "digital I/O",
+            "analog I/O",
+            "4-20mA",
+            "discrete",
+            "signal"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_013",
+        "question": "Define 'redundancy' in the context of HMS panel design.",
+        "answer": "Redundancy means duplicating critical components (such as power supplies, CPUs, or communication links) so that if one fails, the backup automatically takes over without interrupting system operation. It is used in high-availability applications to prevent downtime.",
+        "category": "General Knowledge",
+        "subcategory": "System Design",
+        "product": "HMS Panel",
+        "tags": [
+            "redundancy",
+            "failover",
+            "high availability",
+            "backup",
+            "design"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_014",
+        "question": "What is SCADA and how does it relate to HMS panels?",
+        "answer": "SCADA (Supervisory Control and Data Acquisition) is a software system used to monitor and control industrial processes remotely. HMS panels act as the data collection and control layer, sending process data to the SCADA system and receiving control commands from it.",
+        "category": "General Knowledge",
+        "subcategory": "System Overview",
+        "product": "HMS Panel",
+        "tags": [
+            "SCADA",
+            "supervisory",
+            "data acquisition",
+            "monitoring",
+            "control"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_015",
+        "question": "What is the role of the PLC within an HMS panel?",
+        "answer": "The PLC (Programmable Logic Controller) within an HMS panel executes control logic such as interlocks, sequences, and PID loops. It reads I/O states, processes the program, and drives outputs to control field devices based on programmed conditions.",
+        "category": "General Knowledge",
+        "subcategory": "Hardware",
+        "product": "HMS Panel",
+        "tags": [
+            "PLC",
+            "logic",
+            "control",
+            "program",
+            "automation"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_016",
+        "question": "What safety checks must be performed before installing an HMS panel?",
+        "answer": "Before installation: verify the panel voltage rating matches site supply, confirm the installation area is de-energized and LOTO applied, check the enclosure IP rating suits the environment, inspect for transport damage, confirm cable entry points are suitable, and review the installation drawings and risk assessment.",
+        "category": "Installation & Commissioning",
+        "subcategory": "Pre-Installation Safety",
+        "product": "HMS Panel",
+        "tags": [
+            "installation",
+            "safety",
+            "LOTO",
+            "pre-check",
+            "commissioning"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_017",
+        "question": "Describe the correct procedure for mounting an HMS panel enclosure.",
+        "answer": "Mounting procedure: select a vibration-free, level surface with adequate clearance on all sides for ventilation and access. Use appropriate wall plugs or mounting brackets rated for the panel weight. Ensure the panel is vertical, tighten all fixings evenly, and verify the enclosure door opens freely without obstruction.",
+        "category": "Installation & Commissioning",
+        "subcategory": "Mechanical Installation",
+        "product": "HMS Panel",
+        "tags": [
+            "mounting",
+            "enclosure",
+            "installation",
+            "mechanical",
+            "fixings"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_018",
+        "question": "What cable types are recommended for connecting field devices to an HMS panel?",
+        "answer": "For analog signals: screened twisted-pair cable (e.g., Belden 8761 or equivalent). For digital signals: standard shielded multicore cable. For fieldbus (PROFIBUS): Type A cable (impedance 135–165 Ω). For Ethernet: Cat5e or Cat6 shielded cable. Always follow the manufacturer's cable specifications.",
+        "category": "Installation & Commissioning",
+        "subcategory": "Cabling",
+        "product": "HMS Panel",
+        "tags": [
+            "cable",
+            "twisted pair",
+            "shielded",
+            "PROFIBUS",
+            "Ethernet"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_019",
+        "question": "How should you verify correct earthing/grounding of an HMS panel?",
+        "answer": "Use a continuity tester or multimeter to verify low resistance (< 1 Ω) between the panel earth bar and the building earth point. Check that all modules, cable screens, and the enclosure are bonded to the earth bar. Verify the earth conductor is correctly sized per local regulations.",
+        "category": "Installation & Commissioning",
+        "subcategory": "Earthing",
+        "product": "HMS Panel",
+        "tags": [
+            "earthing",
+            "grounding",
+            "continuity",
+            "earth bar",
+            "safety"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_020",
+        "question": "What is the recommended cable separation distance between power and signal cables?",
+        "answer": "Power cables (mains AC) should be separated from signal/data cables by a minimum of 200mm (8 inches) in parallel runs. When crossing is unavoidable, cables should cross at 90 degrees. Use separate cable trays or conduits for power and signal wiring.",
+        "category": "Installation & Commissioning",
+        "subcategory": "Cabling",
+        "product": "HMS Panel",
+        "tags": [
+            "cable separation",
+            "EMI",
+            "signal",
+            "power",
+            "routing"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_021",
+        "question": "How do you configure the IP address for an HMS panel on first commissioning?",
+        "answer": "Connect a laptop to the HMS panel via Ethernet using a direct cable or switch. Open the HMS configuration software or web browser interface. Navigate to network settings, enter the desired static IP address, subnet mask, default gateway, and DNS if required. Save and reboot the panel to apply. Verify connectivity with a ping test.",
+        "category": "Installation & Commissioning",
+        "subcategory": "Network Configuration",
+        "product": "HMS Panel",
+        "tags": [
+            "IP address",
+            "network",
+            "configuration",
+            "commissioning",
+            "Ethernet"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_022",
+        "question": "What steps are involved in loading firmware onto an HMS panel?",
+        "answer": "Steps: 1) Download the correct firmware version from the manufacturer's portal. 2) Connect to the panel via Ethernet or USB. 3) Open the HMS configuration software. 4) Navigate to firmware update menu. 5) Select the firmware file and initiate the update. 6) Do not interrupt power during the update. 7) After completion, reboot and verify the firmware version in the panel diagnostics.",
+        "category": "Installation & Commissioning",
+        "subcategory": "Firmware",
+        "product": "HMS Panel",
+        "tags": [
+            "firmware",
+            "update",
+            "loading",
+            "commissioning",
+            "software"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_023",
+        "question": "How do you verify that all I/O modules are recognized by the HMS panel CPU?",
+        "answer": "Open the HMS configuration software and go to the hardware diagnostics or module status page. All configured I/O modules should show green/OK status. Cross-check with the LED indicators on each physical module. Any module showing an error or not recognized needs reseating, re-configuration, or replacement.",
+        "category": "Installation & Commissioning",
+        "subcategory": "I/O Verification",
+        "product": "HMS Panel",
+        "tags": [
+            "I/O",
+            "modules",
+            "verification",
+            "diagnostics",
+            "commissioning"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_024",
+        "question": "What tools are required for commissioning an HMS panel?",
+        "answer": "Required tools include: laptop with HMS configuration software, multimeter, loop calibrator (4–20mA source), Ethernet patch cable, serial null modem cable if required, torque screwdriver, PROFIBUS cable tester, network cable tester, insulation resistance tester, and relevant documentation (drawings, datasheet, manual).",
+        "category": "Installation & Commissioning",
+        "subcategory": "Tools",
+        "product": "HMS Panel",
+        "tags": [
+            "tools",
+            "commissioning",
+            "multimeter",
+            "calibrator",
+            "laptop"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_025",
+        "question": "How do you perform a loop check on an analog input?",
+        "answer": "Disconnect the field transmitter. Connect a 4–20mA loop calibrator in its place. Inject 4mA (0%) and verify the HMS panel reads 0% / lower range value. Inject 12mA (50%) and verify 50%. Inject 20mA (100%) and verify full-scale reading. Reconnect the transmitter and confirm live process reading is plausible.",
+        "category": "Installation & Commissioning",
+        "subcategory": "Loop Check",
+        "product": "HMS Panel",
+        "tags": [
+            "loop check",
+            "analog input",
+            "4-20mA",
+            "calibration",
+            "commissioning"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_026",
+        "question": "What is the purpose of a factory acceptance test (FAT) for HMS panels?",
+        "answer": "A FAT is conducted at the manufacturer's facility before delivery to verify that the HMS panel meets the project specification. It includes hardware inspection, I/O signal testing, communication protocol testing, alarm verification, and simulation of process conditions using test equipment.",
+        "category": "Installation & Commissioning",
+        "subcategory": "Testing",
+        "product": "HMS Panel",
+        "tags": [
+            "FAT",
+            "factory acceptance",
+            "testing",
+            "verification",
+            "commissioning"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_027",
+        "question": "How do you commission an HMS panel communication gateway for Modbus RTU?",
+        "answer": "Steps: 1) Set the correct baud rate, data bits (8), parity (None/Even/Odd), and stop bits matching all slave devices. 2) Configure the slave device addresses in the gateway poll list. 3) Map the Modbus registers to internal tags. 4) Connect and verify RS-485 wiring polarity. 5) Monitor communication health in the diagnostic page and confirm data values match expected field readings.",
+        "category": "Installation & Commissioning",
+        "subcategory": "Modbus Commissioning",
+        "product": "HMS Panel",
+        "tags": [
+            "Modbus RTU",
+            "gateway",
+            "commissioning",
+            "RS-485",
+            "baud rate"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_028",
+        "question": "Describe the process for setting baud rate and parity on a serial port.",
+        "answer": "In the HMS configuration software, navigate to the serial port settings for the relevant COM port. Set the baud rate (e.g., 9600, 19200, 115200), data bits (typically 8), parity (None, Even, or Odd), and stop bits (1 or 2) to match ALL devices on the same bus. Mismatched settings are the most common cause of Modbus RTU communication failure.",
+        "category": "Installation & Commissioning",
+        "subcategory": "Serial Configuration",
+        "product": "HMS Panel",
+        "tags": [
+            "baud rate",
+            "parity",
+            "serial port",
+            "Modbus",
+            "RS-485"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_029",
+        "question": "What is the correct startup sequence when powering up an HMS panel for the first time?",
+        "answer": "Startup sequence: 1) Verify all wiring connections are correct and secure. 2) Check that the power supply input voltage matches the site supply. 3) Power the panel with field devices disconnected first. 4) Verify power supply output voltages are correct. 5) Load the project to the CPU. 6) Connect field devices one by one. 7) Verify each I/O channel and communication link.",
+        "category": "Installation & Commissioning",
+        "subcategory": "First Power-Up",
+        "product": "HMS Panel",
+        "tags": [
+            "startup",
+            "power-up",
+            "first time",
+            "sequence",
+            "commissioning"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_030",
+        "question": "How do you verify that an HMS panel is communicating correctly with a SCADA system?",
+        "answer": "In the SCADA software, open the communication diagnostics or tag browser. Confirm that all tags linked to the HMS panel are showing live, updating values (not stale or error). Compare critical values with the physical process or the HMS panel local display. Check the communication log for any error counts or timeouts.",
+        "category": "Installation & Commissioning",
+        "subcategory": "SCADA Integration",
+        "product": "HMS Panel",
+        "tags": [
+            "SCADA",
+            "communication",
+            "verification",
+            "tags",
+            "commissioning"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_031",
+        "question": "What documentation should be reviewed before commissioning an HMS panel?",
+        "answer": "Documents to review: electrical schematics and wiring diagrams, panel layout drawings, I/O list and signal schedule, communication architecture diagram, network IP address list, HMS configuration project files, instrument datasheets, software user manual, FAT test records, and site-specific risk assessments.",
+        "category": "Installation & Commissioning",
+        "subcategory": "Documentation",
+        "product": "HMS Panel",
+        "tags": [
+            "documentation",
+            "schematics",
+            "I/O list",
+            "commissioning",
+            "drawings"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_032",
+        "question": "How do you commission an HMS panel that interfaces with a Variable Frequency Drive (VFD)?",
+        "answer": "Steps: 1) Confirm communication protocol supported by the VFD (e.g., Modbus RTU, PROFIBUS). 2) Set matching baud rate and address on VFD and HMS gateway. 3) Configure the register map for speed reference, start/stop command, feedback speed, and fault status. 4) Test by sending a start command and monitoring VFD response and speed feedback in the HMS panel.",
+        "category": "Installation & Commissioning",
+        "subcategory": "VFD Integration",
+        "product": "HMS Panel",
+        "tags": [
+            "VFD",
+            "drive",
+            "commissioning",
+            "Modbus",
+            "speed control"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_033",
+        "question": "What is the purpose of shielding on signal cables connected to an HMS panel?",
+        "answer": "Cable shielding (screen) prevents electromagnetic interference (EMI) from nearby power cables, motors, and other electrical equipment from inducing noise onto signal wires. The shield must be connected to earth at one end only (typically the panel end) to avoid ground loops.",
+        "category": "Installation & Commissioning",
+        "subcategory": "Cabling",
+        "product": "HMS Panel",
+        "tags": [
+            "shielding",
+            "EMI",
+            "signal cable",
+            "noise",
+            "earthing"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_034",
+        "question": "How do you test and verify the operation of digital outputs during commissioning?",
+        "answer": "In the HMS configuration software, use the force output or test mode function to manually activate each digital output. Physically verify the corresponding relay, contactor, or indicator energizes and de-energizes correctly. Use a multimeter to confirm the output voltage at the terminal. Document all results.",
+        "category": "Installation & Commissioning",
+        "subcategory": "I/O Testing",
+        "product": "HMS Panel",
+        "tags": [
+            "digital output",
+            "testing",
+            "force output",
+            "relay",
+            "commissioning"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_035",
+        "question": "What is the correct procedure for updating the HMS panel project after hardware changes?",
+        "answer": "Steps: 1) Back up the current project file. 2) Open the project in HMS configuration software offline. 3) Add or modify the hardware configuration to reflect the physical changes. 4) Update the I/O mapping and tag assignments. 5) Compile and check for errors. 6) Download the updated project to the panel. 7) Verify all I/O and communication after the update.",
+        "category": "Installation & Commissioning",
+        "subcategory": "Project Management",
+        "product": "HMS Panel",
+        "tags": [
+            "project update",
+            "hardware change",
+            "configuration",
+            "download",
+            "commissioning"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_036",
+        "question": "What is Modbus RTU and how is it typically used with HMS panels?",
+        "answer": "Modbus RTU is a serial communication protocol using RS-485 physical layer. It uses a master-slave architecture where the HMS panel (master) polls slave devices (instruments, drives) by sending requests to specific device addresses and register numbers. Data is encoded in binary format for efficiency.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "Modbus",
+        "product": "HMS Panel",
+        "tags": [
+            "Modbus RTU",
+            "RS-485",
+            "serial",
+            "master-slave",
+            "protocol"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_037",
+        "question": "What is the difference between Modbus RTU and Modbus TCP/IP?",
+        "answer": "Modbus RTU uses serial RS-485 communication with binary encoding and is limited to 247 devices per segment. Modbus TCP/IP encapsulates Modbus messages within TCP/IP packets over Ethernet, supporting faster speeds, more devices, and simultaneous connections. Modbus TCP/IP does not require a master-slave poll cycle.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "Modbus",
+        "product": "HMS Panel",
+        "tags": [
+            "Modbus RTU",
+            "Modbus TCP",
+            "difference",
+            "Ethernet",
+            "serial"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_038",
+        "question": "How do you configure an HMS gateway for PROFIBUS DP master operation?",
+        "answer": "Steps: 1) Open the HMS configuration software. 2) Add the PROFIBUS DP master module. 3) Import GSD files for each slave device. 4) Assign each slave a unique node address (1–125). 5) Configure cyclic data (input/output byte lengths) per slave. 6) Set the bus baud rate (e.g., 1.5 Mbps). 7) Download the configuration and verify slave status LEDs show green.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "PROFIBUS",
+        "product": "HMS Panel",
+        "tags": [
+            "PROFIBUS DP",
+            "master",
+            "GSD",
+            "configuration",
+            "gateway"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_039",
+        "question": "What is the maximum number of nodes on a PROFIBUS DP network?",
+        "answer": "A PROFIBUS DP network supports a maximum of 126 nodes (addresses 0–125), but practical limits are lower due to cable length and repeater constraints. Each RS-485 segment supports up to 32 nodes; repeaters extend the network to additional segments.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "PROFIBUS",
+        "product": "HMS Panel",
+        "tags": [
+            "PROFIBUS",
+            "nodes",
+            "limit",
+            "segment",
+            "repeater"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_040",
+        "question": "Describe the EtherNet/IP protocol and its use in HMS panel networking.",
+        "answer": "EtherNet/IP (Ethernet Industrial Protocol) uses standard Ethernet hardware with the CIP (Common Industrial Protocol) application layer. It supports implicit (cyclic I/O) and explicit (on-demand) messaging. HMS panels use EtherNet/IP to communicate with Allen-Bradley PLCs, drives, and instruments natively over standard Ethernet infrastructure.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "EtherNet/IP",
+        "product": "HMS Panel",
+        "tags": [
+            "EtherNet/IP",
+            "CIP",
+            "Ethernet",
+            "Allen-Bradley",
+            "protocol"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_041",
+        "question": "What is PROFINET and how does it differ from PROFIBUS?",
+        "answer": "PROFINET is an industrial Ethernet protocol by Siemens/PI that offers high-speed communication, real-time (RT) and isochronous real-time (IRT) modes, and uses standard Ethernet hardware. PROFIBUS uses dedicated RS-485 serial hardware. PROFINET supports faster data rates (100 Mbps), longer distances with switches, and native IT integration.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "PROFINET",
+        "product": "HMS Panel",
+        "tags": [
+            "PROFINET",
+            "PROFIBUS",
+            "difference",
+            "Ethernet",
+            "real-time"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_042",
+        "question": "How do you set a unique node address on a PROFIBUS device?",
+        "answer": "Node addresses on PROFIBUS devices are set via: rotary DIP switches on the device (most common), software configuration using the device's commissioning tool, or via PROFIBUS address assignment from the master (if the device supports it). The address must be unique on the segment and within the range 1–125.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "PROFIBUS",
+        "product": "HMS Panel",
+        "tags": [
+            "PROFIBUS",
+            "node address",
+            "DIP switch",
+            "configuration",
+            "addressing"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_043",
+        "question": "What is the purpose of a network termination resistor on a PROFIBUS segment?",
+        "answer": "Termination resistors (typically 220 Ω between the A and B lines) are placed at both physical ends of a PROFIBUS RS-485 segment to absorb signal reflections. Without proper termination, reflected signals cause communication errors, especially at high baud rates.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "PROFIBUS",
+        "product": "HMS Panel",
+        "tags": [
+            "termination",
+            "resistor",
+            "PROFIBUS",
+            "RS-485",
+            "signal"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_044",
+        "question": "What is CANopen protocol and in which applications is it commonly used?",
+        "answer": "CANopen is a higher-layer protocol built on the CAN (Controller Area Network) bus, originally designed for automotive applications. In industrial settings, it is used for motion control systems, servo drives, encoders, and mobile machinery. It supports up to 127 nodes and operates at up to 1 Mbps.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "CANopen",
+        "product": "HMS Panel",
+        "tags": [
+            "CANopen",
+            "CAN",
+            "motion control",
+            "drives",
+            "protocol"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_045",
+        "question": "What is DeviceNet and how does it relate to CANopen?",
+        "answer": "DeviceNet is a network protocol developed by Allen-Bradley also based on CAN physical layer, primarily used in North American factory automation. Like CANopen, it runs on CAN bus hardware at up to 500 kbps. DeviceNet uses the CIP (Common Industrial Protocol) application layer, whereas CANopen uses its own application layer.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "DeviceNet",
+        "product": "HMS Panel",
+        "tags": [
+            "DeviceNet",
+            "CANopen",
+            "CAN",
+            "CIP",
+            "Allen-Bradley"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_046",
+        "question": "How do you diagnose a communication fault on a PROFIBUS network?",
+        "answer": "Steps: 1) Check LED status on the HMS gateway PROFIBUS module (red = fault). 2) Use the HMS diagnostic software to identify which slave is offline. 3) Verify the slave device power supply. 4) Check node address settings match the configuration. 5) Inspect cable connections and termination resistors. 6) Use a PROFIBUS tester to check signal quality. 7) Test the segment with all other devices removed to isolate the fault.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "PROFIBUS Diagnostics",
+        "product": "HMS Panel",
+        "tags": [
+            "PROFIBUS",
+            "fault",
+            "diagnostic",
+            "LED",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_047",
+        "question": "What is the role of an OPC server in HMS panel data communication?",
+        "answer": "An OPC (OLE for Process Control) server acts as a middleware translator between the HMS panel protocol and Windows-based SCADA or historian applications. The OPC server collects data from the HMS panel (via its native protocol) and presents it as standardized OPC tags that any OPC client can subscribe to.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "OPC",
+        "product": "HMS Panel",
+        "tags": [
+            "OPC",
+            "OPC server",
+            "SCADA",
+            "middleware",
+            "data"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_048",
+        "question": "Explain the concept of a gateway device and its function in multi-protocol systems.",
+        "answer": "A gateway is a device that translates data between two different communication protocols. For example, an HMS gateway can receive data from PROFIBUS DP slaves and make it available via Modbus TCP/IP to a SCADA system. It handles all protocol-specific framing, timing, and data type conversions transparently.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "Gateway",
+        "product": "HMS Panel",
+        "tags": [
+            "gateway",
+            "protocol conversion",
+            "multi-protocol",
+            "translation",
+            "communication"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_049",
+        "question": "What is BACnet protocol and when would it be used with an HMS panel?",
+        "answer": "BACnet (Building Automation and Control Network) is a communication protocol designed for building automation systems (HVAC, lighting, fire alarm). An HMS panel would use BACnet when integrating with building management systems (BMS), such as monitoring HVAC equipment, energy meters, or chillers in a commercial or industrial facility.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "BACnet",
+        "product": "HMS Panel",
+        "tags": [
+            "BACnet",
+            "building automation",
+            "BMS",
+            "HVAC",
+            "protocol"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_050",
+        "question": "How do you configure a HART pass-through in an HMS panel?",
+        "answer": "HART pass-through allows HART commands from a configurator or SCADA to pass through the HMS panel to a HART-enabled field instrument. In the HMS software, enable the HART pass-through function on the relevant analog input channel, then connect a HART communicator or use a HART modem to access the instrument through the HMS panel terminal.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "HART",
+        "product": "HMS Panel",
+        "tags": [
+            "HART",
+            "pass-through",
+            "analog",
+            "instrument",
+            "configuration"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_051",
+        "question": "What is the maximum cable length for Modbus RTU at 9600 baud?",
+        "answer": "At 9600 baud on RS-485, the maximum recommended cable length is approximately 1200 meters (4000 feet) using 24 AWG twisted-pair cable. Higher baud rates reduce the maximum cable length significantly (e.g., 115200 baud is limited to approximately 100 meters).",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "Modbus",
+        "product": "HMS Panel",
+        "tags": [
+            "Modbus RTU",
+            "cable length",
+            "RS-485",
+            "baud rate",
+            "distance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_052",
+        "question": "How does MQTT differ from traditional industrial protocols like Modbus?",
+        "answer": "MQTT is a lightweight publish-subscribe messaging protocol designed for IoT and cloud connectivity over TCP/IP. Unlike Modbus (which uses master-slave polling), MQTT clients publish data to a broker and subscribers receive it asynchronously. MQTT is better suited for cloud integration, remote monitoring, and IIoT applications.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "MQTT",
+        "product": "HMS Panel",
+        "tags": [
+            "MQTT",
+            "IoT",
+            "publish-subscribe",
+            "cloud",
+            "Modbus"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_053",
+        "question": "What is an EDS (Electronic Data Sheet) file and when is it needed?",
+        "answer": "An EDS file is a standardized text file provided by device manufacturers that describes a device's configurable parameters and communication capabilities for EtherNet/IP or DeviceNet networks. It is needed when adding a new EtherNet/IP device to the HMS panel configuration so the software can correctly set up data exchange.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "EtherNet/IP",
+        "product": "HMS Panel",
+        "tags": [
+            "EDS file",
+            "EtherNet/IP",
+            "DeviceNet",
+            "configuration",
+            "device"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_054",
+        "question": "How do you resolve IP address conflicts in an HMS panel network?",
+        "answer": "Steps: 1) Use a network scanner (e.g., Advanced IP Scanner) to identify duplicate IPs. 2) Physically isolate devices one at a time and ping the address to identify the conflicting device. 3) Change the IP address of one device to a unique address in the same subnet. 4) Update the HMS panel and SCADA configuration to reflect the new IP. 5) Reconnect and verify communication.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "Network Troubleshooting",
+        "product": "HMS Panel",
+        "tags": [
+            "IP conflict",
+            "network",
+            "IP address",
+            "duplicate",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_055",
+        "question": "What is the purpose of a VLAN in an industrial network hosting HMS panels?",
+        "answer": "A VLAN (Virtual Local Area Network) segments the industrial network into logical groups, separating HMS panel traffic from office IT traffic, improving security, reducing broadcast traffic, and preventing unauthorized access to control system devices. It is a key component of a defense-in-depth cybersecurity strategy.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "Network Security",
+        "product": "HMS Panel",
+        "tags": [
+            "VLAN",
+            "network segmentation",
+            "security",
+            "industrial network",
+            "cybersecurity"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_056",
+        "question": "How do you configure redundant Ethernet ports on an HMS panel?",
+        "answer": "In the HMS configuration software, enable the dual/redundant Ethernet mode (e.g., HSR, PRP, or RSTP ring) if supported. Configure both Ethernet ports with the same IP settings or as separate interfaces depending on the redundancy mode. Physically connect both ports to separate network switches in the redundant ring topology.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "Redundancy",
+        "product": "HMS Panel",
+        "tags": [
+            "redundant Ethernet",
+            "RSTP",
+            "HSR",
+            "PRP",
+            "network"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_057",
+        "question": "What is the Anybus concept and how is it used for protocol conversion?",
+        "answer": "Anybus is an HMS Networks product range comprising gateway modules and communication cards that enable protocol conversion between virtually any industrial fieldbus or industrial Ethernet protocol. An Anybus gateway can, for example, translate data between PROFIBUS DP and EtherNet/IP, allowing legacy devices to integrate with modern control systems.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "Anybus",
+        "product": "HMS Panel",
+        "tags": [
+            "Anybus",
+            "protocol conversion",
+            "gateway",
+            "HMS Networks",
+            "fieldbus"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_058",
+        "question": "Describe the steps for adding a new PROFINET device to an HMS panel project.",
+        "answer": "Steps: 1) Obtain the GSDML file for the new device. 2) Import the GSDML file into the HMS configuration software. 3) Drag the device into the PROFINET topology view. 4) Assign it a unique device name and IP address. 5) Configure the cyclic I/O module slots. 6) Map the I/O data to internal tags. 7) Download the updated project and confirm the device shows as online.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "PROFINET",
+        "product": "HMS Panel",
+        "tags": [
+            "PROFINET",
+            "GSDML",
+            "new device",
+            "configuration",
+            "commissioning"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_059",
+        "question": "What is cyclic vs. acyclic communication in PROFIBUS DP?",
+        "answer": "Cyclic communication is the regular, time-scheduled exchange of I/O data between the PROFIBUS master and slaves (e.g., every bus cycle). Acyclic communication is on-demand data exchange used for device parameterization, diagnostics, or reading configuration data, initiated when needed rather than on every cycle.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "PROFIBUS",
+        "product": "HMS Panel",
+        "tags": [
+            "PROFIBUS",
+            "cyclic",
+            "acyclic",
+            "I/O",
+            "parameterization"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_060",
+        "question": "How do you use Wireshark to diagnose an Ethernet communication issue on an HMS panel?",
+        "answer": "Connect a laptop to the same Ethernet segment as the HMS panel. Open Wireshark and start capturing on the network interface. Filter by the HMS panel IP address (e.g., ip.addr == 192.168.1.10) or protocol (e.g., modbus, profinet). Analyze packet frequency, retransmissions, and response times. Look for TCP resets, no-response events, or malformed packets.",
+        "category": "Communication Protocols & Networking",
+        "subcategory": "Network Diagnostics",
+        "product": "HMS Panel",
+        "tags": [
+            "Wireshark",
+            "Ethernet",
+            "packet capture",
+            "diagnostics",
+            "network"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_061",
+        "question": "What is the first step when troubleshooting an HMS panel that fails to power on?",
+        "answer": "The first step is to verify the incoming supply voltage at the panel's main isolator or terminal block using a multimeter, confirming it matches the panel's rated input voltage. Then check the main fuse or circuit breaker, and verify the power supply module indicators. Do not assume a software or module fault before ruling out loss of supply.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Power Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "power on",
+            "troubleshooting",
+            "supply voltage",
+            "fuse",
+            "multimeter"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_062",
+        "question": "How do you interpret LED status indicators on an HMS panel module?",
+        "answer": "Typical LED meanings: Solid green = normal operation. Flashing green = initializing or data transfer active. Solid red = hardware fault or module error. Flashing red = communication fault. Amber/yellow = warning or configuration issue. No LED = no power to module. Always refer to the specific HMS module datasheet for exact LED interpretation.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "LED Diagnostics",
+        "product": "HMS Panel",
+        "tags": [
+            "LED",
+            "status",
+            "indicators",
+            "diagnostics",
+            "module"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_063",
+        "question": "What does a flashing red LED typically indicate on an HMS communication module?",
+        "answer": "A flashing red LED on an HMS communication module typically indicates a communication fault — the module is configured but cannot establish or maintain communication with the network or a connected device. Causes include incorrect configuration, wiring fault, device offline, or bus error. Check configuration, cable integrity, and device status.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "LED Diagnostics",
+        "product": "HMS Panel",
+        "tags": [
+            "flashing red",
+            "LED",
+            "communication fault",
+            "module",
+            "diagnostics"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_064",
+        "question": "How do you use the diagnostic buffer in an HMS panel to identify faults?",
+        "answer": "Open the HMS configuration software and navigate to the diagnostic buffer or event log. The buffer records timestamped fault events, error codes, module addresses, and fault descriptions. Identify the earliest fault in the sequence — this is typically the root cause. Use the error code to look up the exact fault in the HMS panel manual.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Diagnostic Buffer",
+        "product": "HMS Panel",
+        "tags": [
+            "diagnostic buffer",
+            "event log",
+            "fault",
+            "error code",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_065",
+        "question": "Describe the procedure for isolating a faulty I/O module in an HMS panel.",
+        "answer": "Steps: 1) Note which channels are in error from the diagnostic software. 2) Remove field wiring from the suspect module terminals. 3) If the module error clears, a wiring or field device issue is likely. 4) If the fault persists, swap the module with a known good spare. 5) If the fault moves with the module, the module is faulty. 6) If the fault stays in the slot, check the backplane or slot connections.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "I/O Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "I/O module",
+            "fault isolation",
+            "swap",
+            "diagnostics",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_066",
+        "question": "What causes a 'communication timeout' alarm in an HMS panel and how do you resolve it?",
+        "answer": "A communication timeout occurs when the HMS panel does not receive a response from a slave device within the configured timeout period. Causes: device offline, wrong address, cable fault, baud rate mismatch, or bus collision. Resolution: verify device power, check cable continuity, confirm address and protocol settings, and increase the timeout value if the device responds slowly.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Communication Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "communication timeout",
+            "alarm",
+            "slave",
+            "Modbus",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_067",
+        "question": "How do you troubleshoot an analog input reading that is stuck at maximum value?",
+        "answer": "Stuck at maximum (20mA or equivalent) typically means: open circuit (broken wire), transmitter failure, or the transmitter is sending a NAMUR fault signal. Steps: 1) Measure current at the HMS panel terminal with a multimeter in series. 2) If > 20mA, suspect wiring or transmitter fault. 3) Disconnect transmitter and inject 4mA with a calibrator — if the HMS panel now reads correctly, the transmitter or wiring is the fault.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Analog Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "analog input",
+            "stuck",
+            "maximum",
+            "4-20mA",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_068",
+        "question": "What could cause an HMS panel to repeatedly restart (reboot loop)?",
+        "answer": "Causes of repeated restarts: 1) Watchdog timer triggering due to program error. 2) Power supply voltage instability or undervoltage. 3) Corrupted firmware or project file. 4) Hardware fault in the CPU module. 5) Excessive processor load. Resolution: connect via serial/Ethernet to read diagnostics on startup, check power supply voltage, attempt firmware reload or project restore.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "System Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "reboot loop",
+            "restart",
+            "watchdog",
+            "firmware",
+            "CPU fault"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_069",
+        "question": "How do you check for and resolve a memory overflow fault in an HMS panel?",
+        "answer": "Open the HMS diagnostic software and check the memory utilization page. If program memory, data memory, or data logging storage is at or near 100%, a memory overflow can occur. Resolution: optimize the program to reduce memory usage, reduce the data logging interval or buffer size, archive old log files, or upgrade to a CPU with larger memory capacity.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Memory Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "memory overflow",
+            "fault",
+            "data logging",
+            "CPU",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_070",
+        "question": "Describe how to test a 4-20mA loop connected to an HMS panel.",
+        "answer": "Insert a clamp ammeter or series multimeter (in current mode) in the loop wiring at the HMS panel terminal. Observe the current reading versus the HMS panel displayed engineering value. 4mA should read 0% (low range), 12mA = 50%, 20mA = 100%. If the displayed value doesn't match, recheck the scaling configuration in the HMS panel. Alternatively, use a loop calibrator to simulate specific mA values.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Analog Loop Test",
+        "product": "HMS Panel",
+        "tags": [
+            "4-20mA",
+            "loop test",
+            "analog",
+            "calibrator",
+            "multimeter"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_071",
+        "question": "What tool would you use to check signal integrity on a PROFIBUS cable?",
+        "answer": "Use a dedicated PROFIBUS cable tester such as the Softing PB-T3 or Siemens SIMATIC PDM PROFIBUS diagnostic tool. These devices measure signal amplitude, cable impedance, noise level, and station timing. A standard oscilloscope can also be used to visualize signal quality at the physical layer.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "PROFIBUS Diagnostics",
+        "product": "HMS Panel",
+        "tags": [
+            "PROFIBUS",
+            "cable tester",
+            "signal integrity",
+            "oscilloscope",
+            "diagnostics"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_072",
+        "question": "How do you diagnose a 'node offline' error for a device on an HMS Modbus network?",
+        "answer": "Steps: 1) Confirm the slave device is powered. 2) Verify its Modbus address matches the HMS configuration. 3) Check RS-485 wiring for open circuits or reversed polarity (A/B swap). 4) Confirm baud rate, parity, and stop bits match on both sides. 5) Use a serial port monitor to capture raw frames and identify if requests are sent and if any response is received.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Modbus Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "node offline",
+            "Modbus",
+            "RS-485",
+            "address",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_073",
+        "question": "What causes a 'firmware mismatch' error and how is it resolved?",
+        "answer": "A firmware mismatch error occurs when the version of firmware on a hardware module does not match what the HMS configuration project expects. Resolution: update the module firmware to the version required by the project using the HMS firmware update tool, or update the project to be compatible with the installed firmware version. Always backup before updating.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Firmware",
+        "product": "HMS Panel",
+        "tags": [
+            "firmware mismatch",
+            "error",
+            "version",
+            "update",
+            "module"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_074",
+        "question": "How do you use a multimeter to verify an HMS panel digital input signal?",
+        "answer": "Set the multimeter to DC voltage mode. Measure between the digital input terminal and the 0V (common) reference. A reading of 18–30V DC (for a 24V DC input module) indicates the input is ON (logic 1). A reading of 0V indicates the input is OFF (logic 0). This confirms whether the field device signal is reaching the HMS panel correctly.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Digital I/O",
+        "product": "HMS Panel",
+        "tags": [
+            "multimeter",
+            "digital input",
+            "24VDC",
+            "measurement",
+            "diagnostics"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_075",
+        "question": "What is a 'bus collision' on a serial network and how do you prevent it?",
+        "answer": "A bus collision occurs when two devices on an RS-485 Modbus network transmit simultaneously, corrupting both messages. Prevention: ensure all devices have unique addresses, use Modbus master-only polling (no spontaneous transmissions from slaves), verify no device is configured as a master when it should be a slave, and check for misconfigured biasing resistors.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Serial Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "bus collision",
+            "RS-485",
+            "Modbus",
+            "address",
+            "prevention"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_076",
+        "question": "Describe the steps to clear a persistent alarm that cannot be reset from the HMI.",
+        "answer": "Steps: 1) Identify the alarm tag in the HMS configuration software. 2) Check if the alarm condition is still active in the process — resolve the root cause first. 3) If the alarm condition has cleared but the alarm persists, check for a software latching condition. 4) Use the HMS diagnostic software to force-reset the alarm tag. 5) If still stuck, reload the HMS project or restart the panel as a last resort.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Alarm Management",
+        "product": "HMS Panel",
+        "tags": [
+            "alarm",
+            "persistent",
+            "reset",
+            "HMI",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_077",
+        "question": "What does 'watchdog timeout' mean and what are the common causes?",
+        "answer": "A watchdog timeout means the CPU program failed to service the watchdog timer within the configured interval, causing the CPU to reset or fault. Common causes: program execution time exceeded (e.g., due to excessive communication polling), infinite loop in program logic, hardware fault, or high interrupt load. Review program scan time and reduce polling intervals.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "System Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "watchdog timeout",
+            "CPU",
+            "program",
+            "scan time",
+            "fault"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_078",
+        "question": "How do you troubleshoot an HMS panel that is not syncing time with an NTP server?",
+        "answer": "Steps: 1) Verify the NTP server IP address is correctly configured in the HMS panel network settings. 2) Confirm the HMS panel can reach the NTP server (ping test). 3) Check firewall rules — UDP port 123 must be open. 4) Verify the panel's time zone setting is correct. 5) Try an alternate NTP server. 6) Check the NTP client log in the HMS diagnostics for error messages.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Time Synchronization",
+        "product": "HMS Panel",
+        "tags": [
+            "NTP",
+            "time sync",
+            "network",
+            "UDP",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_079",
+        "question": "What steps would you take if an HMS panel loses its configuration after a power outage?",
+        "answer": "Steps: 1) Check whether the CPU battery (if fitted) has failed — a depleted battery can cause configuration loss. 2) Replace the battery if necessary. 3) Restore the project from the last known good backup. 4) Download the project to the panel. 5) Verify all I/O and communication is functioning. 6) Implement regular configuration backups and battery monitoring to prevent recurrence.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Configuration Loss",
+        "product": "HMS Panel",
+        "tags": [
+            "configuration loss",
+            "power outage",
+            "battery",
+            "backup",
+            "restore"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_080",
+        "question": "How do you trace an intermittent fault that only appears under certain process conditions?",
+        "answer": "Steps: 1) Enable detailed event logging and timestamp all alarms in the HMS panel. 2) Enable communication error counters and log their trends. 3) Review the diagnostic log to identify correlation with specific process events (motor starts, high load). 4) Check for electrical noise by installing a power quality monitor. 5) Inspect wiring for loose connections that may vibrate loose under load.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Intermittent Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "intermittent fault",
+            "event log",
+            "noise",
+            "troubleshooting",
+            "diagnostics"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_081",
+        "question": "What is the significance of CRC errors in a Modbus RTU communication log?",
+        "answer": "CRC (Cyclic Redundancy Check) errors in Modbus RTU indicate that received data packets have been corrupted during transmission. High CRC error rates suggest electrical noise on the RS-485 cable, poor cable shielding or grounding, excessive cable length, or mismatched termination. Investigate the physical layer before adjusting software parameters.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Modbus Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "CRC error",
+            "Modbus RTU",
+            "noise",
+            "RS-485",
+            "communication"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_082",
+        "question": "How do you diagnose and fix ground loops causing noise on analog inputs?",
+        "answer": "A ground loop occurs when the field device and the HMS panel have different earth potentials, causing a current to flow in the shield or signal wire, inducing noise. Fix: connect the cable shield at one end only (panel end). If the transmitter is non-isolated, use an isolating signal conditioner to break the loop. Verify all equipment shares a common earth reference.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Analog Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "ground loop",
+            "noise",
+            "analog input",
+            "shielding",
+            "isolation"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_083",
+        "question": "What steps do you take when an HMS panel firmware update fails midway?",
+        "answer": "Steps: 1) Do not power cycle immediately — the panel may have a recovery partition. 2) Attempt to reconnect with the HMS software to see if a partial firmware state is detected. 3) Follow the manufacturer's recovery procedure (e.g., boot from SD card or USB recovery image). 4) If no recovery is possible, contact HMS technical support. 5) As prevention, always ensure stable power and network connection during updates.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Firmware",
+        "product": "HMS Panel",
+        "tags": [
+            "firmware update",
+            "failed",
+            "recovery",
+            "troubleshooting",
+            "procedure"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_084",
+        "question": "How do you test the health of an HMS panel power supply unit?",
+        "answer": "Tests: 1) Measure output DC voltage with a multimeter — should be within ±2% of rated value (e.g., 24V DC). 2) Measure output voltage ripple with an oscilloscope — should be < 200mV peak-to-peak. 3) Check the output current by comparing load vs. rated current. 4) Inspect the PSU for signs of overheating, discoloration, or bulging capacitors. 5) Test under full load using a resistive load bank if possible.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Power Supply",
+        "product": "HMS Panel",
+        "tags": [
+            "power supply",
+            "health check",
+            "voltage",
+            "ripple",
+            "diagnostics"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_085",
+        "question": "Describe the procedure when an HMS panel screen goes blank but the panel is still running.",
+        "answer": "Steps: 1) Check the display cable connection between the HMI and main board. 2) Verify display power supply voltage. 3) Check the panel software for display timeout or screensaver settings. 4) Attempt to wake the display by touching the screen or pressing a button. 5) If the display remains blank, connect via the configuration software to verify the CPU is still running. 6) Replace the display unit if it is confirmed faulty.",
+        "category": "Troubleshooting & Diagnostics",
+        "subcategory": "Display Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "screen blank",
+            "display",
+            "HMI",
+            "troubleshooting",
+            "screensaver"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_086",
+        "question": "What is the recommended preventive maintenance schedule for an HMS panel?",
+        "answer": "Recommended schedule: Monthly — check communication error counters, alarm logs, and panel enclosure temperature. Quarterly — inspect terminal connections, clean ventilation filters, check fan operation. Annually — retorque all terminals, inspect wiring condition, test UPS if fitted, replace CPU battery if nearing end of life, perform firmware review, backup project files.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Maintenance Schedule",
+        "product": "HMS Panel",
+        "tags": [
+            "preventive maintenance",
+            "schedule",
+            "terminal",
+            "fan",
+            "battery"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_087",
+        "question": "How do you safely clean the interior of an HMS panel enclosure?",
+        "answer": "Ensure the panel is de-energized and LOTO applied. Use dry, compressed air (max 2 bar) to blow out dust from modules and ventilation slots. For stubborn contamination, use IPA (isopropyl alcohol) on a lint-free cloth on non-electronic surfaces. Never use water or solvent-based cleaners. Inspect for signs of moisture ingress, corrosion, or insect infestation before re-energizing.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Cleaning",
+        "product": "HMS Panel",
+        "tags": [
+            "cleaning",
+            "enclosure",
+            "dust",
+            "IPA",
+            "maintenance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_088",
+        "question": "What is the procedure for replacing a faulty I/O module without full system shutdown?",
+        "answer": "Check if the HMS panel supports hot-swap on the affected module type. If yes: inhibit the affected I/O channels in the program to prevent false signals. Remove the faulty module and install the replacement. Re-enable the I/O channels and verify correct operation. If hot-swap is not supported, a controlled shutdown is required before replacing the module.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Module Replacement",
+        "product": "HMS Panel",
+        "tags": [
+            "I/O module",
+            "hot-swap",
+            "replacement",
+            "maintenance",
+            "procedure"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_089",
+        "question": "How often should terminal connections in an HMS panel be retorqued and why?",
+        "answer": "Terminal connections should be retorqued annually as a minimum, or after the first 6 months of operation for new installations. Thermal cycling, vibration, and conductor creep (especially with copper) cause connections to loosen over time, which increases contact resistance, causes overheating, and can lead to intermittent signals or fire risk.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Terminals",
+        "product": "HMS Panel",
+        "tags": [
+            "terminal",
+            "retorque",
+            "annual",
+            "thermal cycling",
+            "maintenance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_090",
+        "question": "What environmental conditions should be monitored to extend HMS panel lifespan?",
+        "answer": "Monitor: ambient temperature (keep within rated range, typically 0–55°C), relative humidity (10–90% non-condensing), vibration levels (isolate if necessary), dust and particulate levels (use filters and ensure correct IP rating), corrosive gases (use pressurized enclosures in aggressive atmospheres), and electromagnetic interference levels.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Environmental Monitoring",
+        "product": "HMS Panel",
+        "tags": [
+            "environment",
+            "temperature",
+            "humidity",
+            "dust",
+            "maintenance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_091",
+        "question": "How do you back up an HMS panel configuration and project files?",
+        "answer": "Using the HMS configuration software: connect to the panel, go to project management, and use the export or backup function to save the project to a local PC file (typically .hms or manufacturer-specific format). Also export the panel's runtime configuration if separate from the project. Store backups in at least two locations (local PC and a network share or cloud). Document the backup date and firmware version.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Backup",
+        "product": "HMS Panel",
+        "tags": [
+            "backup",
+            "configuration",
+            "project file",
+            "export",
+            "maintenance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_092",
+        "question": "What is the procedure for replacing the battery in an HMS panel CPU module?",
+        "answer": "Steps: 1) Note the current date/time and configuration state. 2) De-energize the panel (or follow the hot-swap battery procedure if supported). 3) Remove the CPU module or access the battery compartment. 4) Replace the battery with the manufacturer-specified type (typically CR2032 or similar lithium cell). 5) Re-install and power up. 6) Verify date/time and configuration are intact. 7) Record the replacement date.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Battery Replacement",
+        "product": "HMS Panel",
+        "tags": [
+            "battery",
+            "CPU",
+            "replacement",
+            "maintenance",
+            "CR2032"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_093",
+        "question": "How do you inspect and maintain the cooling fan in an HMS panel enclosure?",
+        "answer": "Quarterly: visually inspect the fan blades for dust accumulation and clean with compressed air. Listen for unusual noise (bearing failure). Measure airflow with an anemometer if possible. Check the fan filter (if fitted) and replace or wash it. Annually: use the fan's hour-meter (if available) to assess service life — replace proactively at the manufacturer-recommended interval (typically 30,000–50,000 hours).",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Cooling",
+        "product": "HMS Panel",
+        "tags": [
+            "cooling fan",
+            "inspection",
+            "maintenance",
+            "filter",
+            "bearing"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_094",
+        "question": "What is the significance of checking capacitor health in an HMS panel power supply?",
+        "answer": "Electrolytic capacitors in power supplies degrade over time, especially at high temperatures. As they age, capacitance decreases and ESR (Equivalent Series Resistance) increases, causing increased output voltage ripple, reduced hold-up time, and eventual power supply failure. Signs of failing capacitors: bulging tops, electrolyte leakage, increased output noise. Replace the power supply proactively based on operating hours and temperature history.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Power Supply",
+        "product": "HMS Panel",
+        "tags": [
+            "capacitor",
+            "power supply",
+            "ESR",
+            "aging",
+            "maintenance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_095",
+        "question": "Describe how to test the operation of an HMS panel UPS (Uninterruptible Power Supply).",
+        "answer": "Steps: 1) Verify the UPS battery charge level in the HMS panel diagnostics. 2) Simulate a mains power loss by opening the incoming supply isolator. 3) Confirm the HMS panel continues to operate from the UPS. 4) Measure the actual hold-up time and compare with the rated specification. 5) Restore mains supply and confirm the UPS recharges. 6) Document the test result and battery capacity trend.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "UPS Testing",
+        "product": "HMS Panel",
+        "tags": [
+            "UPS",
+            "battery",
+            "test",
+            "hold-up time",
+            "maintenance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_096",
+        "question": "How should firmware version records be maintained for HMS panels in a facility?",
+        "answer": "Maintain a firmware register document (spreadsheet or CMMS record) for each HMS panel, recording: panel tag/ID, installation location, HMS model number, current firmware version, date of last firmware update, and the engineer who performed the update. This enables consistent patch management, prevents accidental downgrades, and supports rapid incident investigation.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Documentation",
+        "product": "HMS Panel",
+        "tags": [
+            "firmware",
+            "version record",
+            "CMMS",
+            "documentation",
+            "maintenance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_097",
+        "question": "What is the procedure for replacing a touchscreen display on an HMS panel?",
+        "answer": "Steps: 1) De-energize the panel. 2) Disconnect the display cable connectors (ribbon cable, power, backlight). 3) Remove the display mounting screws. 4) Install the replacement display in reverse order. 5) Power up and verify the display operates. 6) Perform touchscreen calibration if required (access calibration mode via hardware button or software). 7) Restore normal operation and test all HMI functions.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Display Replacement",
+        "product": "HMS Panel",
+        "tags": [
+            "touchscreen",
+            "display",
+            "replacement",
+            "calibration",
+            "maintenance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_098",
+        "question": "How do you check and re-calibrate analog I/O channels on an HMS panel?",
+        "answer": "Use a calibrated loop calibrator to inject known 4mA, 12mA, and 20mA signals. Compare the HMS panel displayed values with the expected engineering values. If deviation exceeds ±0.1% (or the specified accuracy), access the HMS analog channel calibration menu and apply the manufacturer's calibration procedure, typically adjusting zero and span offset values. Document calibration results with date and engineer signature.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Calibration",
+        "product": "HMS Panel",
+        "tags": [
+            "analog",
+            "calibration",
+            "4-20mA",
+            "accuracy",
+            "maintenance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_099",
+        "question": "What is the impact of dust ingress on HMS panel components and how is it prevented?",
+        "answer": "Dust accumulation on PCBs and modules causes: overheating (insulating effect reducing cooling), tracking faults (conductive dust causing short circuits), mechanical wear on fans and drives, and contamination of contacts. Prevention: ensure correct IP-rated enclosure, regularly clean filters, use positive pressure ventilation in dusty environments, and apply conformal coating on PCBs in very dusty areas.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Environmental Protection",
+        "product": "HMS Panel",
+        "tags": [
+            "dust",
+            "ingress",
+            "overheating",
+            "IP rating",
+            "prevention"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_100",
+        "question": "How do you inspect cable glands for integrity on an HMS panel enclosure?",
+        "answer": "Inspect each cable gland for: correct seating and tightness, correct IP rating for the cable diameter used, absence of cracks or UV damage, no cable movement within the gland (re-tighten if loose), and correct use of suitable blanking plugs on unused gland holes. Replace any damaged or incorrect glands. Verify the enclosure IP rating is maintained after all gland inspections.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Enclosure",
+        "product": "HMS Panel",
+        "tags": [
+            "cable gland",
+            "IP rating",
+            "inspection",
+            "enclosure",
+            "maintenance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_101",
+        "question": "What steps are taken during an annual shutdown maintenance of an HMS panel?",
+        "answer": "Annual shutdown tasks: 1) Full backup of project and configuration. 2) Retorque all terminal connections. 3) Clean interior and replace ventilation filters. 4) Replace CPU battery if near end of life. 5) Inspect wiring insulation for damage. 6) Test UPS operation. 7) Update firmware if required. 8) Review and test alarm functions. 9) Document all work in the panel maintenance record.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Annual Maintenance",
+        "product": "HMS Panel",
+        "tags": [
+            "annual shutdown",
+            "maintenance",
+            "terminal",
+            "battery",
+            "backup"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_102",
+        "question": "How do you identify and replace aging relay or contactor components in an HMS panel?",
+        "answer": "Signs of aging relays/contactors: pitting or carbon deposits on contacts, slow or unreliable switching, audible chattering, or coil overheating. Check the relay operating hour counter if recorded. Replace relays that have exceeded their rated number of switching cycles (typically 100,000–1,000,000 operations). Always replace like-for-like (coil voltage, contact rating, form factor).",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Relay/Contactor",
+        "product": "HMS Panel",
+        "tags": [
+            "relay",
+            "contactor",
+            "aging",
+            "replacement",
+            "maintenance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_103",
+        "question": "What is the procedure for replacing an Ethernet switch inside an HMS panel?",
+        "answer": "Steps: 1) Document all current port IP and VLAN configurations. 2) Power down the panel or isolate the switch power. 3) Label all Ethernet cables before disconnecting. 4) Remove the faulty switch and install the replacement. 5) Reconnect all cables in their labeled positions. 6) Power up and configure the replacement switch with the same settings. 7) Verify all network communications are restored.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Network Hardware",
+        "product": "HMS Panel",
+        "tags": [
+            "Ethernet switch",
+            "replacement",
+            "network",
+            "maintenance",
+            "VLAN"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_104",
+        "question": "How do you maintain spare parts inventory for HMS panels effectively?",
+        "answer": "Maintain a minimum stock of: critical spares (CPU module, power supply, display, key I/O modules) for each unique HMS panel type. Use the plant CMMS to track spare part usage rates and set reorder levels. Store spares in anti-static packaging in a cool, dry location. Update spare part records after each use and review annually against obsolescence risk.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Spare Parts",
+        "product": "HMS Panel",
+        "tags": [
+            "spare parts",
+            "inventory",
+            "CMMS",
+            "critical spares",
+            "maintenance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_105",
+        "question": "How do you perform a health check on the HMS panel communication network?",
+        "answer": "Steps: 1) Review communication error counters in the HMS diagnostic software (CRC errors, timeouts, retries). 2) Check network switch port statistics for errors, collisions, or excessive broadcasts. 3) Ping all connected devices and record response times. 4) Verify all slave devices are online in the poll status page. 5) Check data update rates are within specification. Document findings and compare with previous health checks to identify trends.",
+        "category": "Maintenance & Preventive Care",
+        "subcategory": "Network Health",
+        "product": "HMS Panel",
+        "tags": [
+            "network health",
+            "communication",
+            "error counters",
+            "diagnostics",
+            "maintenance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_106",
+        "question": "What safety procedures must be followed before working on a live HMS panel?",
+        "answer": "Required safety procedures: obtain a permit to work (PTW), conduct a risk assessment, identify all energy sources, apply LOTO if de-energizing, wear appropriate PPE (insulated gloves, safety glasses, arc flash-rated clothing if live work is required), confirm the safe working voltage with a live voltage indicator, and never work alone on live equipment above 50V AC.",
+        "category": "Safety & Compliance",
+        "subcategory": "Pre-Work Safety",
+        "product": "HMS Panel",
+        "tags": [
+            "safety",
+            "PTW",
+            "LOTO",
+            "PPE",
+            "live work"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_107",
+        "question": "What is LOTO (Lockout/Tagout) and how is it applied to HMS panel maintenance?",
+        "answer": "LOTO is a safety procedure that isolates all hazardous energy sources before maintenance. For an HMS panel: 1) Identify all energy sources (mains supply, UPS, battery). 2) Isolate each using the designated isolator. 3) Apply a personal padlock to each isolation point. 4) Attach a warning tag. 5) Test the panel to confirm it is de-energized before starting work. 6) Remove LOTO only after work is completed and all personnel are clear.",
+        "category": "Safety & Compliance",
+        "subcategory": "LOTO",
+        "product": "HMS Panel",
+        "tags": [
+            "LOTO",
+            "lockout",
+            "tagout",
+            "isolation",
+            "safety"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_108",
+        "question": "What PPE is required when working on an HMS panel with live voltages?",
+        "answer": "Required PPE for live work: insulated gloves rated for the working voltage (e.g., Class 0 for up to 1000V), arc flash-rated FR (flame-resistant) clothing if the arc flash energy exceeds 1.2 cal/cm², safety glasses or face shield, insulated tools (VDE rated), and non-conductive footwear. Always verify PPE is undamaged and within its inspection date before use.",
+        "category": "Safety & Compliance",
+        "subcategory": "PPE",
+        "product": "HMS Panel",
+        "tags": [
+            "PPE",
+            "insulated gloves",
+            "arc flash",
+            "FR clothing",
+            "live work"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_109",
+        "question": "What standards govern HMS panel design and installation (e.g., IEC, UL, NEMA)?",
+        "answer": "Key standards: IEC 61439 (low-voltage switchgear and control gear assemblies), IEC 60664 (insulation coordination), UL 508A (industrial control panels — North America), NEMA 250 (enclosure ratings — North America), IEC 60529 (IP ratings), EN/IEC 61010 (electrical safety for measurement equipment), and IEC 61131 (PLC programming standards).",
+        "category": "Safety & Compliance",
+        "subcategory": "Standards",
+        "product": "HMS Panel",
+        "tags": [
+            "IEC",
+            "UL",
+            "NEMA",
+            "standards",
+            "compliance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_110",
+        "question": "What is the purpose of a safety relay in an HMS panel for emergency stop circuits?",
+        "answer": "A safety relay monitors the emergency stop (E-stop) circuit and outputs a guaranteed safe state (de-energized contacts) when the E-stop is activated. It provides mandatory self-monitoring of its own relay contacts, ensuring that a single component failure cannot prevent the E-stop from working. Safety relays are used to achieve SIL or PLe safety integrity levels.",
+        "category": "Safety & Compliance",
+        "subcategory": "Safety Systems",
+        "product": "HMS Panel",
+        "tags": [
+            "safety relay",
+            "emergency stop",
+            "E-stop",
+            "SIL",
+            "PLe"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_111",
+        "question": "Describe the difference between SIL 1, SIL 2, and SIL 3 safety levels.",
+        "answer": "SIL (Safety Integrity Level) defines the required risk reduction factor for a safety function. SIL 1: probability of failure on demand (PFD) 0.1–0.01 (risk reduction factor 10–100). SIL 2: PFD 0.01–0.001 (factor 100–1000) — requires redundancy or high-quality components. SIL 3: PFD 0.001–0.0001 (factor 1000–10000) — requires highly redundant, rigorously validated systems.",
+        "category": "Safety & Compliance",
+        "subcategory": "Functional Safety",
+        "product": "HMS Panel",
+        "tags": [
+            "SIL",
+            "safety integrity",
+            "PFD",
+            "redundancy",
+            "IEC 61508"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_112",
+        "question": "What is a functional safety assessment and when is it required for HMS panels?",
+        "answer": "A functional safety assessment (FSA) is an independent evaluation of a safety-instrumented system (SIS) to verify it meets its required SIL level. It is required when HMS panels are part of a safety-instrumented function (SIF), typically in process industries (oil & gas, chemical). It is mandated by IEC 61511 at key lifecycle phases including design, commissioning, and after significant modification.",
+        "category": "Safety & Compliance",
+        "subcategory": "Functional Safety",
+        "product": "HMS Panel",
+        "tags": [
+            "functional safety",
+            "FSA",
+            "SIL",
+            "IEC 61511",
+            "assessment"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_113",
+        "question": "What fire suppression considerations apply to HMS panel rooms?",
+        "answer": "HMS panel rooms should have: automatic fire detection (smoke detectors), appropriate fire suppression system (gaseous suppression such as FM-200 or CO2 is preferred over water to protect electronics), fire-rated walls and doors, emergency power-off (EPO) capability accessible outside the room, and fire evacuation procedures for personnel.",
+        "category": "Safety & Compliance",
+        "subcategory": "Fire Safety",
+        "product": "HMS Panel",
+        "tags": [
+            "fire suppression",
+            "FM-200",
+            "smoke detector",
+            "EPO",
+            "safety"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_114",
+        "question": "How do you verify that an emergency stop circuit is functioning correctly?",
+        "answer": "Test procedure: 1) Inform all relevant personnel before testing. 2) Place the process in a safe state. 3) Activate the E-stop device. 4) Verify that all designated outputs de-energize and the system reaches a safe state. 5) Check the safety relay resets correctly after the E-stop is released and the reset button is pressed. 6) Document the test result with timestamp and engineer signature.",
+        "category": "Safety & Compliance",
+        "subcategory": "E-Stop Testing",
+        "product": "HMS Panel",
+        "tags": [
+            "emergency stop",
+            "E-stop",
+            "test",
+            "safety relay",
+            "verification"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_115",
+        "question": "What is the maximum safe working voltage an engineer can be exposed to without specialist PPE?",
+        "answer": "Under most regulations (e.g., IEC 60950, UK Electricity at Work Regulations), voltages above 50V AC or 120V DC are considered hazardous and require specialist PPE and training for live work. Below these thresholds (Extra Low Voltage — ELV) is generally considered safe for contact, though precautions should still apply in wet or confined spaces.",
+        "category": "Safety & Compliance",
+        "subcategory": "Electrical Safety",
+        "product": "HMS Panel",
+        "tags": [
+            "safe voltage",
+            "ELV",
+            "50V",
+            "PPE",
+            "electrical safety"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_116",
+        "question": "How is arc flash hazard assessed and mitigated in HMS panel installations?",
+        "answer": "Arc flash assessment follows IEEE 1584 or NFPA 70E. The incident energy at each working distance is calculated based on fault current, system voltage, and protection device clearing time. Mitigation: install arc flash-rated PPE labels on panels, use current-limiting fuses to reduce clearing time, implement remote racking and remote switching, and keep bus protection relay settings optimized.",
+        "category": "Safety & Compliance",
+        "subcategory": "Arc Flash",
+        "product": "HMS Panel",
+        "tags": [
+            "arc flash",
+            "IEEE 1584",
+            "NFPA 70E",
+            "incident energy",
+            "PPE"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_117",
+        "question": "What documentation must be in place before energizing an HMS panel for the first time?",
+        "answer": "Required documentation: completed wiring inspection checklist, insulation resistance test records, correct installation verification sign-off, approved electrical schematic drawings, risk assessment and method statement, FAT test records (if applicable), firmware and project version records, and the authorized engineer's signature on the energization permit.",
+        "category": "Safety & Compliance",
+        "subcategory": "Commissioning Safety",
+        "product": "HMS Panel",
+        "tags": [
+            "energization",
+            "documentation",
+            "permit",
+            "inspection",
+            "commissioning"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_118",
+        "question": "Explain the role of fuses and circuit breakers in protecting an HMS panel.",
+        "answer": "Fuses provide single-use, fast overcurrent protection and are used to protect individual circuits or modules. Circuit breakers provide resettable overcurrent and short-circuit protection. In an HMS panel, the main incoming breaker protects the panel as a whole, while individual branch breakers or fuses protect each sub-circuit (power supply, I/O rails, field wiring) from faults without shutting down the entire panel.",
+        "category": "Safety & Compliance",
+        "subcategory": "Protection",
+        "product": "HMS Panel",
+        "tags": [
+            "fuse",
+            "circuit breaker",
+            "protection",
+            "overcurrent",
+            "short circuit"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_119",
+        "question": "What is CE marking and what does it mean for HMS panel compliance in Europe?",
+        "answer": "CE marking indicates that the HMS panel meets the requirements of relevant EU directives (e.g., Low Voltage Directive 2014/35/EU, EMC Directive 2014/30/EU, Machinery Directive 2006/42/EC where applicable). It allows the product to be sold in the European Economic Area and confirms the manufacturer has performed the required conformity assessment and holds a Declaration of Conformity.",
+        "category": "Safety & Compliance",
+        "subcategory": "Compliance",
+        "product": "HMS Panel",
+        "tags": [
+            "CE marking",
+            "EU directive",
+            "compliance",
+            "EMC",
+            "LVD"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_120",
+        "question": "How do you ensure cybersecurity compliance for an HMS panel connected to a corporate network?",
+        "answer": "Key measures: apply network segmentation (DMZ/VLAN), disable unused network ports and services, enforce strong password policies, enable encrypted communications (TLS/HTTPS) where supported, apply regular firmware patches, implement role-based access control, use a firewall between OT and IT networks, and comply with IEC 62443 standards for industrial cybersecurity.",
+        "category": "Safety & Compliance",
+        "subcategory": "Cybersecurity",
+        "product": "HMS Panel",
+        "tags": [
+            "cybersecurity",
+            "IEC 62443",
+            "firewall",
+            "VLAN",
+            "compliance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_121",
+        "question": "What is the purpose of surge protection devices (SPDs) in HMS panels?",
+        "answer": "SPDs (Surge Protection Devices) protect HMS panel components from transient overvoltages caused by lightning strikes, switching operations, or grid disturbances. They divert the surge energy to earth before it can damage sensitive electronics. SPDs should be fitted on the mains incoming supply, field wiring inputs (especially for long cable runs), and communication lines.",
+        "category": "Safety & Compliance",
+        "subcategory": "Surge Protection",
+        "product": "HMS Panel",
+        "tags": [
+            "surge protection",
+            "SPD",
+            "lightning",
+            "transient",
+            "overvoltage"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_122",
+        "question": "How do you handle and dispose of HMS panel batteries safely?",
+        "answer": "Handling: use insulated tools, avoid short-circuiting battery terminals, and do not expose to heat or open flame. Disposal: do not discard in general waste — lithium and lead-acid batteries are classified as hazardous waste. Follow local regulations (e.g., EU Battery Directive, WEEE). Use licensed battery recycling services or return to the manufacturer's take-back scheme.",
+        "category": "Safety & Compliance",
+        "subcategory": "Battery Safety",
+        "product": "HMS Panel",
+        "tags": [
+            "battery",
+            "disposal",
+            "hazardous waste",
+            "WEEE",
+            "recycling"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_123",
+        "question": "What are the implications of ATEX certification for HMS panels in hazardous areas?",
+        "answer": "ATEX certification is required for equipment used in atmospheres with explosive gases or dust (Zones 0, 1, 2, 20, 21, 22). An ATEX-certified HMS panel must be designed and tested to prevent ignition sources in the rated zone. Service engineers must use ATEX-rated tools, follow hot work permit procedures, and must not modify or open ATEX equipment without following the re-certification process.",
+        "category": "Safety & Compliance",
+        "subcategory": "ATEX",
+        "product": "HMS Panel",
+        "tags": [
+            "ATEX",
+            "hazardous area",
+            "explosive atmosphere",
+            "zone",
+            "certification"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_124",
+        "question": "How do you test and certify the insulation resistance of cables connected to an HMS panel?",
+        "answer": "Use a calibrated insulation resistance tester (megohmmeter). Disconnect the cables from the HMS panel and field devices. Apply the test voltage (typically 500V DC for 24V circuits, 1000V DC for 230V circuits) between each conductor and earth. A healthy insulation reading should be > 1 MΩ (typically > 100 MΩ for new cables). Record readings, compare with acceptance criteria, and document in the test report.",
+        "category": "Safety & Compliance",
+        "subcategory": "Insulation Testing",
+        "product": "HMS Panel",
+        "tags": [
+            "insulation resistance",
+            "megohmmeter",
+            "cable test",
+            "IR test",
+            "certification"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_125",
+        "question": "What is the procedure when a service engineer suspects a fault has caused a safety system to bypass?",
+        "answer": "Immediately stop work and do not attempt to restore normal operation. Isolate the affected safety function. Inform the site safety officer and shift supervisor. Place the process in a safe state using procedural controls. Record all observations and the time of discovery. Do not reset or modify the safety system without authorization and a full investigation. Raise a formal incident report.",
+        "category": "Safety & Compliance",
+        "subcategory": "Safety Incident",
+        "product": "HMS Panel",
+        "tags": [
+            "safety bypass",
+            "incident",
+            "safety system",
+            "procedure",
+            "reporting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_126",
+        "question": "What software tools are used to configure and program HMS panels?",
+        "answer": "Common tools include HMS's own configuration software (e.g., Anybus Configuration Manager, EasyBuilderPro for Weintek-based HMS panels), Codesys for IEC 61131-3 programming, manufacturer-specific tools for gateway configuration, and general tools such as Wireshark for network diagnostics and WinSCP for file transfer. The specific tool depends on the HMS panel model.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Software Tools",
+        "product": "HMS Panel",
+        "tags": [
+            "software",
+            "configuration",
+            "programming",
+            "Anybus",
+            "Codesys"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_127",
+        "question": "How do you create a new project in HMS configuration software from scratch?",
+        "answer": "Steps: 1) Open the HMS configuration software. 2) Select 'New Project' and choose the correct HMS panel model and firmware version. 3) Configure the hardware: add CPU, I/O modules, and communication modules matching the physical hardware. 4) Set the network parameters (IP address, subnet). 5) Add communication nodes (Modbus slaves, PROFIBUS devices). 6) Create tag/variable mappings. 7) Save and compile the project. 8) Download to the panel.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Project Creation",
+        "product": "HMS Panel",
+        "tags": [
+            "new project",
+            "configuration software",
+            "setup",
+            "hardware",
+            "commissioning"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_128",
+        "question": "What is the difference between online and offline programming modes in HMS software?",
+        "answer": "Offline mode: the engineer works on the project on a PC without connecting to the live panel, allowing safe editing and testing using simulation. Online mode: the software connects to the running panel, allowing live monitoring of tag values, forcing I/O, editing and downloading changes, and reading diagnostic data. Online changes should be made carefully as they affect the live process.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Programming Modes",
+        "product": "HMS Panel",
+        "tags": [
+            "online mode",
+            "offline mode",
+            "programming",
+            "simulation",
+            "live"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_129",
+        "question": "How do you add a new device node to an existing HMS panel project?",
+        "answer": "Steps: 1) Open the project in the HMS configuration software. 2) Navigate to the communication configuration of the relevant network (Modbus, PROFIBUS, etc.). 3) Add a new device node and assign its unique address. 4) Import the device description file (GSD/EDS/GSDML) if required. 5) Configure the cyclic data and tag mappings for the new device. 6) Compile and download the updated project. 7) Verify the new device appears online in diagnostics.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Device Addition",
+        "product": "HMS Panel",
+        "tags": [
+            "new device",
+            "node",
+            "configuration",
+            "GSD",
+            "project"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_130",
+        "question": "Describe the process for mapping a Modbus register to an internal tag in HMS software.",
+        "answer": "In the HMS configuration software: 1) Select the Modbus slave device in the project. 2) Open the register mapping table. 3) Define the register type (Holding Register, Input Register, Coil, etc.) and register number as specified in the device's Modbus map. 4) Specify the data type (INT16, FLOAT32, BOOL, etc.). 5) Assign an internal tag name. 6) Set the scaling if required (raw to engineering unit conversion). 7) Save and compile.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Modbus Mapping",
+        "product": "HMS Panel",
+        "tags": [
+            "Modbus register",
+            "tag mapping",
+            "configuration",
+            "data type",
+            "scaling"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_131",
+        "question": "What is a GSD file and how is it used when adding a PROFIBUS device?",
+        "answer": "A GSD (General Station Description) file is a standardized text file provided by the PROFIBUS device manufacturer. It describes the device's communication parameters, supported baud rates, I/O data modules, and diagnostic capabilities. In HMS configuration software, the GSD file is imported to allow the software to correctly configure the master-slave data exchange for that specific device.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "PROFIBUS",
+        "product": "HMS Panel",
+        "tags": [
+            "GSD file",
+            "PROFIBUS",
+            "device description",
+            "configuration",
+            "import"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_132",
+        "question": "How do you set up data logging in an HMS panel for process trend recording?",
+        "answer": "In the HMS configuration software, navigate to the data logging or historian settings. Select the tags to be logged, set the logging interval (e.g., every 1 second, 1 minute), define the storage location (internal flash, SD card, or FTP server), set the file format (CSV, binary), and configure the retention period. Enable the logging task and verify data is being written by reviewing the log file.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Data Logging",
+        "product": "HMS Panel",
+        "tags": [
+            "data logging",
+            "historian",
+            "trend",
+            "CSV",
+            "configuration"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_133",
+        "question": "Describe the steps for creating a Modbus TCP/IP scanner in HMS panel software.",
+        "answer": "Steps: 1) Add a Modbus TCP/IP client (scanner) module in the project. 2) Configure the target device IP address and TCP port (default 502). 3) Add polling commands specifying function code, starting register, and length. 4) Map the polled registers to internal tags. 5) Set the polling interval and timeout. 6) Compile and download. 7) Verify connectivity by monitoring tag values and checking for communication errors.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Modbus TCP",
+        "product": "HMS Panel",
+        "tags": [
+            "Modbus TCP",
+            "scanner",
+            "polling",
+            "configuration",
+            "IP"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_134",
+        "question": "What is the purpose of structured text (ST) programming in HMS panel logic?",
+        "answer": "Structured Text (ST) is an IEC 61131-3 high-level programming language (similar to Pascal/C). It is used in HMS panels for complex mathematical calculations, string handling, loop structures, and conditional logic that would be cumbersome in ladder logic. It improves code readability and maintainability for complex algorithms such as PID tuning, data parsing, and protocol handling.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Programming",
+        "product": "HMS Panel",
+        "tags": [
+            "structured text",
+            "ST",
+            "IEC 61131-3",
+            "programming",
+            "PLC"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_135",
+        "question": "How do you download a project to an HMS panel over Ethernet?",
+        "answer": "Steps: 1) Ensure the laptop and HMS panel are on the same IP subnet. 2) Open the project in HMS configuration software. 3) Go to the download/transfer menu. 4) Enter the panel's IP address if prompted. 5) Initiate the download. 6) The software will warn if the panel is in run mode — confirm the download. 7) Monitor download progress. 8) After completion, verify the panel restarted and is running the correct project version.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Project Download",
+        "product": "HMS Panel",
+        "tags": [
+            "project download",
+            "Ethernet",
+            "transfer",
+            "commissioning",
+            "IP"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_136",
+        "question": "How do you compare two versions of an HMS panel project to identify changes?",
+        "answer": "Use the HMS configuration software's built-in project comparison tool if available. Alternatively, export both project versions to a readable format (e.g., XML or CSV) and use a text comparison tool such as WinMerge or VS Code diff. Key areas to compare: hardware configuration, tag definitions, communication settings, alarm thresholds, and program logic. Always compare before deploying a project update.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Project Management",
+        "product": "HMS Panel",
+        "tags": [
+            "project comparison",
+            "version control",
+            "change management",
+            "diff",
+            "configuration"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_137",
+        "question": "What is the purpose of an I/O mapping table in HMS panel configuration?",
+        "answer": "An I/O mapping table defines the relationship between physical I/O channel addresses (module slot, channel number) and internal software tags. It ensures that a sensor wired to physical input channel 3 of module 2 is correctly mapped to the software tag 'Flow_Meter_01'. This table is essential for commissioning, loop checking, troubleshooting, and handover documentation.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "I/O Mapping",
+        "product": "HMS Panel",
+        "tags": [
+            "I/O mapping",
+            "tag",
+            "channel",
+            "commissioning",
+            "documentation"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_138",
+        "question": "How do you configure alarming thresholds for analog inputs in HMS panel software?",
+        "answer": "In the HMS tag or alarm configuration page for the analog input tag: define the alarm limits (High High, High, Low, Low Low) in engineering units. Set a deadband (hysteresis) to prevent alarm chattering near the threshold. Assign an alarm priority level. Configure the alarm message text. Set acknowledgment requirements. Enable the alarm and verify it triggers and clears correctly at the configured thresholds.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Alarming",
+        "product": "HMS Panel",
+        "tags": [
+            "alarm",
+            "threshold",
+            "analog",
+            "deadband",
+            "configuration"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_139",
+        "question": "How do you enable SNMP on an HMS panel for network monitoring?",
+        "answer": "Navigate to the network services settings in the HMS panel web interface or configuration software. Enable the SNMP service. Configure the SNMP version (v1/v2c/v3), community string (for v1/v2c), or user credentials (for v3). Set the trap destination IP address (the SNMP manager). Download the MIB file for the HMS panel and load it into the SNMP manager software.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "SNMP",
+        "product": "HMS Panel",
+        "tags": [
+            "SNMP",
+            "network monitoring",
+            "MIB",
+            "trap",
+            "configuration"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_140",
+        "question": "What is the procedure for restoring a backed-up project to an HMS panel?",
+        "answer": "Steps: 1) Open the backed-up project file in the HMS configuration software. 2) Verify the project version and panel model match the target panel. 3) Connect to the target panel via Ethernet. 4) Initiate the download/restore function. 5) Confirm overwriting the existing project when prompted. 6) After download, verify the panel boots correctly and all I/O and communications are functioning. 7) Update the project backup records.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Restore",
+        "product": "HMS Panel",
+        "tags": [
+            "restore",
+            "backup",
+            "project",
+            "download",
+            "recovery"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_141",
+        "question": "How do you configure a data exchange between two separate HMS panels?",
+        "answer": "Options: 1) Modbus TCP/IP: configure one panel as Modbus TCP server and the other as client/scanner, mapping registers between them. 2) OPC UA: both panels publish and subscribe to shared OPC UA nodes via an OPC UA server. 3) PROFINET: configure as controller and device. Define the data to be exchanged, set the polling/update rates, and verify bidirectional data flow after commissioning.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Panel-to-Panel Communication",
+        "product": "HMS Panel",
+        "tags": [
+            "panel-to-panel",
+            "Modbus TCP",
+            "OPC UA",
+            "data exchange",
+            "configuration"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_142",
+        "question": "What is the difference between 'project download' and 'firmware update' in HMS panels?",
+        "answer": "A project download transfers the user's configuration, tag definitions, communication settings, and program logic to the panel — it does not change the operating system or hardware drivers. A firmware update replaces the panel's embedded operating system, hardware driver libraries, and core software with a new version from the manufacturer. Both are separate operations requiring different tools and procedures.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Download vs Firmware",
+        "product": "HMS Panel",
+        "tags": [
+            "project download",
+            "firmware update",
+            "difference",
+            "operating system",
+            "configuration"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_143",
+        "question": "How do you assign user access levels in HMS panel software for operator vs. engineer?",
+        "answer": "In the HMS panel user management settings: create user accounts or groups. Assign roles (e.g., Operator, Engineer, Administrator). For Operator level: allow alarm acknowledgment and basic control only. For Engineer level: allow configuration changes, parameter modification, and diagnostics access. For Administrator: full access. Enforce password complexity requirements and session timeout.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Access Control",
+        "product": "HMS Panel",
+        "tags": [
+            "user access",
+            "role",
+            "operator",
+            "engineer",
+            "security"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_144",
+        "question": "Describe how to set up a scheduled reboot in an HMS panel system.",
+        "answer": "In the HMS panel system settings or scheduler configuration: enable the scheduled task function. Add a new task of type 'System Reboot'. Set the schedule (e.g., every Sunday at 02:00 AM). Save and apply the task. Verify by checking the system event log after the scheduled time. Ensure the reboot time is planned during low-impact periods and all personnel are informed.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "System Management",
+        "product": "HMS Panel",
+        "tags": [
+            "scheduled reboot",
+            "scheduler",
+            "system task",
+            "maintenance",
+            "configuration"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_145",
+        "question": "How do you use simulation mode in HMS software to test logic without live hardware?",
+        "answer": "In the HMS configuration software, enable simulation mode from the tools or run menu. This creates a virtual representation of the hardware. Manually set input tag values using the simulation interface. Observe how the program logic responds and verify output tags change as expected. Use simulation to test alarm logic, scaling, and communication sequences before downloading to the physical panel.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Simulation",
+        "product": "HMS Panel",
+        "tags": [
+            "simulation",
+            "test",
+            "offline",
+            "logic",
+            "virtual"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_146",
+        "question": "What is the purpose of function blocks in HMS panel programming?",
+        "answer": "Function blocks (FB) are reusable, encapsulated programming units in IEC 61131-3 that contain logic and retain internal state between calls. In HMS panel programming, they are used for standard tasks such as PID control, motor control, timer functions, and protocol handling. Using function blocks promotes code reuse, reduces errors, and simplifies maintenance.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Programming",
+        "product": "HMS Panel",
+        "tags": [
+            "function block",
+            "IEC 61131-3",
+            "PID",
+            "reuse",
+            "programming"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_147",
+        "question": "How do you configure time synchronization (NTP) in an HMS panel?",
+        "answer": "In the HMS panel network/system settings: enable the NTP client. Enter the IP address or hostname of the NTP server (e.g., pool.ntp.org or a local stratum-1 server). Set the time zone and daylight saving time (DST) rule. Set the synchronization interval. Apply settings and verify the panel clock synchronizes to the correct time. Check the NTP status log for confirmation.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Time Synchronization",
+        "product": "HMS Panel",
+        "tags": [
+            "NTP",
+            "time sync",
+            "clock",
+            "network",
+            "configuration"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_148",
+        "question": "What is the correct procedure for exporting configuration data from an HMS panel?",
+        "answer": "Connect to the HMS panel via Ethernet. In the configuration software, use the upload/export function to retrieve the current project from the panel. Save the project file to a dated folder on the local PC and a backup location. Additionally export the tag list, alarm list, and I/O mapping as CSV if supported. Note the firmware version and panel serial number in the backup records.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Export",
+        "product": "HMS Panel",
+        "tags": [
+            "export",
+            "configuration",
+            "backup",
+            "project",
+            "upload"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_149",
+        "question": "How do you configure SNMP traps for alarm notification on an HMS panel?",
+        "answer": "In the SNMP settings of the HMS panel: define the trap destination IP (the SNMP manager/NMS). Select the SNMP version for traps. Configure which events trigger traps (e.g., communication fault, hardware alarm, high temperature). Set the community string (v1/v2c) or authentication credentials (v3). Test by triggering a known alarm and verifying the SNMP manager receives the trap.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "SNMP",
+        "product": "HMS Panel",
+        "tags": [
+            "SNMP trap",
+            "alarm notification",
+            "NMS",
+            "configuration",
+            "monitoring"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_150",
+        "question": "How do you set up redundant communication paths in HMS panel software?",
+        "answer": "In the HMS communication configuration: enable the redundant port or dual-path feature. Configure the primary communication interface (e.g., Ethernet port 1) and the secondary (Ethernet port 2 or a different protocol). Set the switchover condition (e.g., communication timeout). Test by physically disconnecting the primary path and verifying that communication automatically switches to the secondary path without data loss.",
+        "category": "Software, Configuration & Programming",
+        "subcategory": "Redundancy",
+        "product": "HMS Panel",
+        "tags": [
+            "redundant communication",
+            "dual path",
+            "failover",
+            "switchover",
+            "configuration"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_151",
+        "question": "What is the typical input voltage range for an HMS panel power supply module?",
+        "answer": "Most HMS panel power supply modules accept a universal AC input range of 85–264V AC (47–63 Hz) or a wide DC input range of 90–350V DC. This allows a single power supply to be used globally across different national supply standards without modification.",
+        "category": "Power Supply & Electrical",
+        "subcategory": "Voltage Ratings",
+        "product": "HMS Panel",
+        "tags": [
+            "power supply",
+            "input voltage",
+            "AC",
+            "universal",
+            "range"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_152",
+        "question": "How do you calculate the total power consumption of an HMS panel?",
+        "answer": "Sum the power consumption of all components: CPU module + each I/O module + communication gateway modules + HMI display + fans + field device supply current (24V DC load). Add a 20–25% safety margin to the total. Compare against the power supply rated output current. Ensure the power supply is not overloaded under worst-case (all outputs energized) conditions.",
+        "category": "Power Supply & Electrical",
+        "subcategory": "Power Calculation",
+        "product": "HMS Panel",
+        "tags": [
+            "power consumption",
+            "calculation",
+            "load",
+            "power supply",
+            "margin"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_153",
+        "question": "What is inrush current and how does it affect HMS panel power supply sizing?",
+        "answer": "Inrush current is the large, brief surge of current drawn when an HMS panel is first powered on, as capacitors in the power supply charge up. It can be 10–50× the normal operating current for 1–20ms. When sizing the incoming circuit breaker or fuse, select a type with sufficient inrush tolerance (e.g., type B or C MCB) to prevent nuisance tripping on startup.",
+        "category": "Power Supply & Electrical",
+        "subcategory": "Inrush Current",
+        "product": "HMS Panel",
+        "tags": [
+            "inrush current",
+            "startup",
+            "fuse",
+            "MCB",
+            "power supply"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_154",
+        "question": "How do you test the output voltage ripple of an HMS panel power supply?",
+        "answer": "Connect an oscilloscope with a 10× probe to the 24V DC output terminals of the power supply. Set the oscilloscope to AC coupling to see ripple only. Measure the peak-to-peak ripple voltage under normal operating load. Acceptable ripple is typically < 200mV peak-to-peak for a 24V supply. Excessive ripple indicates aging capacitors or overloading.",
+        "category": "Power Supply & Electrical",
+        "subcategory": "Power Supply Testing",
+        "product": "HMS Panel",
+        "tags": [
+            "ripple",
+            "oscilloscope",
+            "24VDC",
+            "power supply",
+            "test"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_155",
+        "question": "What causes an HMS panel power supply to go into current limiting mode?",
+        "answer": "Current limiting activates when the total load current exceeds the power supply's rated output current. Causes: too many field devices or modules connected, a short circuit in the 24V DC wiring, a faulty module drawing excessive current, or the power supply is undersized for the actual load. Current limiting protects the supply from damage but causes output voltage to drop, potentially causing modules to malfunction.",
+        "category": "Power Supply & Electrical",
+        "subcategory": "Power Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "current limiting",
+            "overload",
+            "short circuit",
+            "power supply",
+            "fault"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_156",
+        "question": "How do you select the correct fuse rating for an HMS panel branch circuit?",
+        "answer": "Use the formula: Fuse rating = (Total load current × 1.25) rounded up to next standard fuse size. For example, a 3A load requires a 4A fuse. Ensure the fuse breaking capacity exceeds the available fault current at that point. Select the fuse type (fast-blow, slow-blow) appropriate for the load type (capacitive/inductive). Document the fuse specification on the panel wiring schedule.",
+        "category": "Power Supply & Electrical",
+        "subcategory": "Fuse Selection",
+        "product": "HMS Panel",
+        "tags": [
+            "fuse",
+            "rating",
+            "selection",
+            "load current",
+            "protection"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_157",
+        "question": "What is the purpose of a DC UPS module in an HMS panel?",
+        "answer": "A DC UPS (Uninterruptible Power Supply) module provides battery-backed 24V DC power to the HMS panel in the event of a mains supply failure. It allows the panel to continue operating, save data gracefully, or perform a controlled shutdown. The hold-up time (typically 5 minutes to several hours) is determined by battery capacity and load current.",
+        "category": "Power Supply & Electrical",
+        "subcategory": "UPS",
+        "product": "HMS Panel",
+        "tags": [
+            "DC UPS",
+            "battery backup",
+            "hold-up time",
+            "power failure",
+            "24VDC"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_158",
+        "question": "How do you perform a load test on an HMS panel power supply?",
+        "answer": "Connect a resistive load bank to the 24V DC output set to draw 80–100% of rated output current. Monitor output voltage — it should remain stable within ±2% of nominal. Measure temperature of the power supply after 30 minutes of full-load operation. Monitor for overheating, voltage collapse, or current limiting. Record results and compare with power supply datasheet specifications.",
+        "category": "Power Supply & Electrical",
+        "subcategory": "Power Supply Testing",
+        "product": "HMS Panel",
+        "tags": [
+            "load test",
+            "power supply",
+            "24VDC",
+            "rated current",
+            "temperature"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_159",
+        "question": "What is the correct wire gauge for a 24VDC supply rail feeding multiple HMS modules?",
+        "answer": "Wire gauge depends on total current load and cable length. For a typical HMS panel 24V DC rail carrying up to 10A over short distances (< 3m): 1.5mm² (AWG 16) is appropriate. For higher currents or longer runs, use 2.5mm² (AWG 14). Always calculate voltage drop (should be < 5% of nominal) and derate for temperature. Follow local wiring codes and the HMS panel wiring schedule.",
+        "category": "Power Supply & Electrical",
+        "subcategory": "Wiring",
+        "product": "HMS Panel",
+        "tags": [
+            "wire gauge",
+            "24VDC",
+            "current",
+            "voltage drop",
+            "wiring"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_160",
+        "question": "How do you identify and resolve excessive voltage drop in an HMS panel 24VDC rail?",
+        "answer": "Measure voltage at the power supply output and at the furthest module on the 24V rail. A difference > 1.2V (5% of 24V) indicates excessive voltage drop. Causes: undersized wire, loose terminals, excessive current draw. Resolution: increase wire gauge, retorque connections, split the load across two power supply outputs, or add a second power supply closer to the loads.",
+        "category": "Power Supply & Electrical",
+        "subcategory": "Voltage Drop",
+        "product": "HMS Panel",
+        "tags": [
+            "voltage drop",
+            "24VDC",
+            "wire gauge",
+            "terminal",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_161",
+        "question": "What is the purpose of reverse polarity protection in an HMS panel power circuit?",
+        "answer": "Reverse polarity protection prevents damage to HMS panel modules and field devices if the 24V DC wiring is accidentally connected with reversed positive and negative. It is achieved using a series protection diode or MOSFET circuit that blocks reverse current flow. This is especially important on field wiring terminals where incorrect polarity by a field engineer could damage sensitive electronics.",
+        "category": "Power Supply & Electrical",
+        "subcategory": "Protection",
+        "product": "HMS Panel",
+        "tags": [
+            "reverse polarity",
+            "protection",
+            "diode",
+            "24VDC",
+            "wiring"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_162",
+        "question": "How do you safely discharge capacitors in an HMS panel before performing maintenance?",
+        "answer": "After isolating the panel: wait the manufacturer-recommended discharge time (typically 5–10 minutes for most power supplies). Use a multimeter to verify voltage at the capacitor terminals has dropped to a safe level (< 50V DC). If the capacitors do not discharge naturally, use a discharge resistor (e.g., 100 Ω, 50W) connected across the terminals. Do not short-circuit capacitor terminals directly.",
+        "category": "Power Supply & Electrical",
+        "subcategory": "Capacitor Safety",
+        "product": "HMS Panel",
+        "tags": [
+            "capacitor discharge",
+            "safety",
+            "multimeter",
+            "voltage",
+            "maintenance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_163",
+        "question": "What is the typical hold-up time of an HMS panel power supply during a voltage dip?",
+        "answer": "Most HMS panel DIN-rail power supplies provide a hold-up time of 20–100ms at full rated load during a mains voltage dip. This covers typical short interruptions on the supply network. For extended outages, a dedicated DC UPS module with battery backup is required to maintain panel operation beyond this hold-up time.",
+        "category": "Power Supply & Electrical",
+        "subcategory": "Power Supply Performance",
+        "product": "HMS Panel",
+        "tags": [
+            "hold-up time",
+            "voltage dip",
+            "power supply",
+            "UPS",
+            "mains"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_164",
+        "question": "How do you measure and record insulation resistance values for HMS panel wiring?",
+        "answer": "Steps: 1) Isolate the panel from mains supply. 2) Disconnect all sensitive electronic modules (protect from test voltage). 3) Set the megohmmeter to appropriate test voltage (500V DC for 24V circuits). 4) Measure conductor-to-earth and conductor-to-conductor resistance. 5) Record each measurement on a calibrated test form with cable ID, measured resistance, test voltage, date, and engineer signature. 6) Reconnect all modules after testing.",
+        "category": "Power Supply & Electrical",
+        "subcategory": "Insulation Testing",
+        "product": "HMS Panel",
+        "tags": [
+            "insulation resistance",
+            "megohmmeter",
+            "wiring",
+            "test",
+            "commissioning"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_165",
+        "question": "What is the consequence of operating an HMS panel power supply above its rated temperature?",
+        "answer": "Operating above rated temperature accelerates capacitor aging (doubling degradation rate for every 10°C above rating — Arrhenius law), reduces output voltage regulation, increases ripple, triggers thermal shutdown, and ultimately causes premature failure. Most HMS panel power supplies derate output current above 40–50°C and shut down above 70°C. Ensure adequate ventilation and ambient cooling.",
+        "category": "Power Supply & Electrical",
+        "subcategory": "Thermal Management",
+        "product": "HMS Panel",
+        "tags": [
+            "temperature",
+            "thermal",
+            "power supply",
+            "derating",
+            "aging"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_166",
+        "question": "How do you integrate an HMS panel with a cloud SCADA platform?",
+        "answer": "Steps: 1) Confirm the HMS panel supports MQTT or REST API for cloud connectivity. 2) Configure the MQTT broker address and authentication credentials in the HMS panel. 3) Define the tags to be published to the cloud. 4) Configure the cloud platform to subscribe to the HMS panel's MQTT topics. 5) Set up secure TLS encryption for data in transit. 6) Verify data appears in the cloud dashboard with correct values and timestamps.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "Cloud Integration",
+        "product": "HMS Panel",
+        "tags": [
+            "cloud SCADA",
+            "MQTT",
+            "integration",
+            "TLS",
+            "IoT"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_167",
+        "question": "What is an edge gateway and how does it extend HMS panel functionality?",
+        "answer": "An edge gateway is a device placed between HMS panels and cloud/IT systems that performs local data processing, protocol conversion, and data filtering at the edge of the network. It can aggregate data from multiple HMS panels, perform local analytics, reduce cloud bandwidth, and provide offline buffering when cloud connectivity is lost.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "Edge Computing",
+        "product": "HMS Panel",
+        "tags": [
+            "edge gateway",
+            "edge computing",
+            "IoT",
+            "data processing",
+            "protocol conversion"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_168",
+        "question": "How do you set up OPC UA communication from an HMS panel to a historian server?",
+        "answer": "Steps: 1) Enable the OPC UA server on the HMS panel in the configuration software. 2) Configure the server endpoint URL, port (typically 4840), and security policy (None, Sign, Sign & Encrypt). 3) Define which tags to expose as OPC UA nodes. 4) In the historian software, add an OPC UA connection pointing to the HMS panel endpoint. 5) Configure the historian to subscribe to the required nodes. 6) Verify data is being recorded in the historian database.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "OPC UA",
+        "product": "HMS Panel",
+        "tags": [
+            "OPC UA",
+            "historian",
+            "server",
+            "nodes",
+            "configuration"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_169",
+        "question": "What is the role of REST APIs in modern HMS panel data integration?",
+        "answer": "REST APIs allow external systems (web applications, cloud platforms, ERP systems) to query HMS panel data using standard HTTP requests. The HMS panel (or edge gateway) acts as a REST server, exposing endpoints for reading tag values, writing setpoints, and retrieving alarm history. This enables seamless integration with modern web-based systems without requiring industrial protocol drivers.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "API Integration",
+        "product": "HMS Panel",
+        "tags": [
+            "REST API",
+            "HTTP",
+            "integration",
+            "web",
+            "data"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_170",
+        "question": "How do you diagnose latency issues in an HMS panel Ethernet network?",
+        "answer": "Steps: 1) Use ping with large packet sizes to measure round-trip time between devices. 2) Use Wireshark to capture traffic and measure request-to-response times for specific protocols. 3) Check network switch port statistics for congestion, errors, or excessive broadcast traffic. 4) Verify QoS settings are prioritizing control traffic. 5) Check for network loops (STP issues). 6) Consider upgrading switch or segmenting the network if congestion is identified.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "Network Latency",
+        "product": "HMS Panel",
+        "tags": [
+            "latency",
+            "Ethernet",
+            "Wireshark",
+            "QoS",
+            "network diagnostics"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_171",
+        "question": "What is a cybersecurity risk assessment and how is it applied to HMS panels?",
+        "answer": "A cybersecurity risk assessment identifies, analyzes, and evaluates cyber threats to HMS panels and the consequences of a successful attack. It follows frameworks such as IEC 62443 or NIST SP 800-82. The assessment evaluates: attack surface (open ports, protocols), consequences of compromise, existing countermeasures, and residual risk. Findings drive security hardening actions such as patching, network segmentation, and access control.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "Cybersecurity",
+        "product": "HMS Panel",
+        "tags": [
+            "cybersecurity",
+            "risk assessment",
+            "IEC 62443",
+            "NIST",
+            "threat"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_172",
+        "question": "How do you implement network segmentation to protect HMS panels from IT network threats?",
+        "answer": "Implement a layered network architecture: place HMS panels in a dedicated OT (Operational Technology) network segment, separated from the corporate IT network by a firewall or DMZ. Use VLANs to further separate different process areas. Restrict traffic between IT and OT to specific ports and protocols only (e.g., OPC UA on port 4840). Disable unused network services on the HMS panel.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "Network Security",
+        "product": "HMS Panel",
+        "tags": [
+            "network segmentation",
+            "OT",
+            "IT",
+            "firewall",
+            "VLAN"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_173",
+        "question": "What is the difference between a managed and unmanaged Ethernet switch in an HMS panel?",
+        "answer": "An unmanaged switch has no configuration capabilities — it simply forwards Ethernet frames between ports with no diagnostics or security features. A managed switch supports VLANs, port mirroring, QoS, SNMP monitoring, RSTP (rapid spanning tree), port security, and detailed traffic statistics. Managed switches are recommended for HMS panel networks to enable diagnostics, security, and redundancy.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "Network Hardware",
+        "product": "HMS Panel",
+        "tags": [
+            "managed switch",
+            "unmanaged switch",
+            "VLAN",
+            "SNMP",
+            "network"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_174",
+        "question": "How do you configure VLAN tagging on an HMS panel Ethernet port?",
+        "answer": "In the HMS panel network settings or managed switch configuration: assign the port to the desired VLAN ID. Set the port as 'trunk' (tagged) if it connects to a switch that passes multiple VLANs, or 'access' (untagged) if the HMS panel is the only device on that VLAN segment. Verify that the connected switch port is configured with matching VLAN settings.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "VLAN",
+        "product": "HMS Panel",
+        "tags": [
+            "VLAN",
+            "tagging",
+            "trunk",
+            "access port",
+            "Ethernet"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_175",
+        "question": "What is Industrial IoT (IIoT) and how does it relate to HMS panel systems?",
+        "answer": "Industrial IoT (IIoT) refers to the integration of industrial devices (sensors, controllers, HMS panels) with cloud platforms, data analytics, and enterprise IT systems using internet technologies. HMS panels act as data sources in IIoT architectures, providing real-time process data via MQTT, OPC UA, or REST APIs to cloud analytics platforms for predictive maintenance, energy management, and remote monitoring.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "IIoT",
+        "product": "HMS Panel",
+        "tags": [
+            "IIoT",
+            "cloud",
+            "analytics",
+            "MQTT",
+            "predictive maintenance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_176",
+        "question": "How do you enable remote access to an HMS panel securely for remote diagnostics?",
+        "answer": "Recommended approach: use a site VPN (Virtual Private Network) gateway that requires multi-factor authentication. The service engineer connects to the plant VPN from their laptop, which gives access to the OT network. Avoid exposing the HMS panel directly to the internet. Alternatively, use an industrial secure remote access solution (e.g., HMS eWon Cosy). Ensure all remote sessions are logged and monitored.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "Remote Access",
+        "product": "HMS Panel",
+        "tags": [
+            "remote access",
+            "VPN",
+            "secure",
+            "eWon",
+            "diagnostics"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_177",
+        "question": "What is a DMZ (Demilitarized Zone) in industrial network architecture and why is it used?",
+        "answer": "A DMZ is a network segment placed between the OT (control) network and the IT (corporate) network, isolated by two firewalls. Servers that need to share data between both networks (e.g., data historians, OPC servers) are placed in the DMZ. This prevents direct network traffic between IT and OT, while still allowing controlled data exchange. It is a key element of IEC 62443 security architecture.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "Network Architecture",
+        "product": "HMS Panel",
+        "tags": [
+            "DMZ",
+            "firewall",
+            "OT",
+            "IT",
+            "IEC 62443"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_178",
+        "question": "How do you use network sniffing tools to diagnose protocol issues in an HMS panel system?",
+        "answer": "Connect a laptop to a switch with port mirroring enabled (mirroring the HMS panel port). Open Wireshark and start a capture. Apply filters for the protocol of interest (e.g., 'modbus' or 'profinet'). Analyze the captures for: missing responses, malformed packets, incorrect function codes, unexpected device responses, or timing issues. Save the capture file for further analysis or sharing with HMS technical support.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "Network Diagnostics",
+        "product": "HMS Panel",
+        "tags": [
+            "Wireshark",
+            "port mirroring",
+            "sniffing",
+            "protocol",
+            "diagnostics"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_179",
+        "question": "What is the purpose of a historian database in an HMS panel-integrated system?",
+        "answer": "A historian database (e.g., OSIsoft PI, Wonderware InSQL) stores time-series process data collected from HMS panels over long periods (months to years). It enables trend analysis, performance reporting, regulatory compliance reporting, incident investigation, and predictive maintenance. The historian receives data from HMS panels via OPC, Modbus TCP, or direct database connectors.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "Historian",
+        "product": "HMS Panel",
+        "tags": [
+            "historian",
+            "database",
+            "time-series",
+            "OPC",
+            "analytics"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_180",
+        "question": "How do you export HMS panel data to a third-party analytics platform?",
+        "answer": "Methods: 1) MQTT: configure the HMS panel as MQTT publisher sending tag data to a broker that the analytics platform subscribes to. 2) REST API: the analytics platform polls the HMS panel or edge gateway REST endpoint. 3) OPC UA: the analytics platform uses an OPC UA client to subscribe to HMS panel nodes. 4) CSV export: schedule regular data log file exports via FTP from the HMS panel to the analytics platform's import directory.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "Data Export",
+        "product": "HMS Panel",
+        "tags": [
+            "data export",
+            "analytics",
+            "MQTT",
+            "REST",
+            "OPC UA"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_181",
+        "question": "How do you detect and resolve IP address conflicts between multiple HMS panels?",
+        "answer": "Use a network scanner (e.g., Advanced IP Scanner or Nmap) to scan the subnet and identify duplicate IPs. When a conflict is detected, the affected panels may show intermittent connectivity. Isolate panels one at a time by disconnecting their Ethernet cables. Identify the conflicting panel's IP, access its configuration, and assign a unique IP address. Reconnect and verify all panels are accessible.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "Network Troubleshooting",
+        "product": "HMS Panel",
+        "tags": [
+            "IP conflict",
+            "network scanner",
+            "Nmap",
+            "address",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_182",
+        "question": "What is the significance of QoS (Quality of Service) settings in an HMS panel network?",
+        "answer": "QoS settings on network switches prioritize time-critical HMS panel control traffic (e.g., PROFINET RT, Modbus TCP) over lower-priority traffic (e.g., file transfers, web browsing). Without QoS, heavy IT traffic can cause latency or packet loss on control traffic, leading to communication timeouts or process upsets. Configure DSCP or 802.1p QoS markings on the network switch for the HMS panel traffic.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "QoS",
+        "product": "HMS Panel",
+        "tags": [
+            "QoS",
+            "DSCP",
+            "network",
+            "latency",
+            "priority"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_183",
+        "question": "How do you configure email alerts from an HMS panel alarm system?",
+        "answer": "In the HMS panel alarm or notification settings: enable the email notification service. Configure the SMTP server address, port (typically 25, 465, or 587), authentication credentials, and sender email address. Define the recipient email addresses for each alarm priority level. Set the alarm conditions that trigger emails. Test by triggering a test alarm and confirming the email is received.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "Alarm Notification",
+        "product": "HMS Panel",
+        "tags": [
+            "email alert",
+            "alarm",
+            "SMTP",
+            "notification",
+            "configuration"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_184",
+        "question": "How do you test failover behavior in a redundant HMS panel configuration?",
+        "answer": "Steps: 1) With both panels running, confirm the primary panel is active and secondary is in standby. 2) Simulate a failure of the primary panel (remove power or Ethernet). 3) Verify the secondary panel takes over within the specified switchover time. 4) Confirm SCADA and field devices reconnect to the secondary panel with no significant data loss. 5) Restore the primary panel and verify it returns to standby or primary role as configured. Document switchover time.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "Redundancy Testing",
+        "product": "HMS Panel",
+        "tags": [
+            "failover",
+            "redundancy",
+            "test",
+            "switchover",
+            "primary/secondary"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_185",
+        "question": "How do you document and label an HMS panel network for future service engineers?",
+        "answer": "Best practices: Create a network topology diagram showing all HMS panels, switches, and connected devices with their IP addresses and MAC addresses. Label every Ethernet cable at both ends with the port designation. Maintain an IP address register spreadsheet. Document VLAN assignments, firewall rules, and communication protocol configurations. Store documentation in a version-controlled location accessible to the service team.",
+        "category": "Advanced Diagnostics & Integration",
+        "subcategory": "Documentation",
+        "product": "HMS Panel",
+        "tags": [
+            "documentation",
+            "network topology",
+            "labeling",
+            "IP register",
+            "maintenance"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_186",
+        "question": "An HMS panel stops communicating with all Modbus devices simultaneously. What are the first three steps you take?",
+        "answer": "Step 1: Check the HMS panel Modbus port LED — if off or red, the port may have failed or been incorrectly configured. Step 2: Verify the RS-485 cable is connected at the HMS panel COM port terminals (check for accidental disconnection). Step 3: Check the HMS panel event log or communication diagnostic counter for a sudden increase in errors — identify if this is a hardware fault, configuration change, or cable issue before proceeding further.",
+        "category": "Scenario-Based Questions",
+        "subcategory": "Modbus Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "Modbus",
+            "simultaneous fault",
+            "RS-485",
+            "diagnostic",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_187",
+        "question": "You replace an HMS I/O module and the new module is not recognized. What do you check?",
+        "answer": "Check: 1) Is the replacement module the exact same model/order number as the original? 2) Is the module fully seated and locked in its backplane slot? 3) Does the module firmware version match the project requirement? 4) Has the configuration been re-downloaded to the panel after the hardware change? 5) Is the module showing any LED fault indication? Check the HMS diagnostic log for a 'module mismatch' or 'hardware fault' error message.",
+        "category": "Scenario-Based Questions",
+        "subcategory": "Module Replacement",
+        "product": "HMS Panel",
+        "tags": [
+            "I/O module",
+            "not recognized",
+            "replacement",
+            "firmware",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_188",
+        "question": "An HMS panel shows the correct process values on screen but is not sending data to SCADA. How do you diagnose this?",
+        "answer": "Diagnosis steps: 1) Ping the SCADA server from the HMS panel — confirm network connectivity. 2) Check the HMS panel communication gateway status (SCADA-facing port LED). 3) Verify the SCADA connection is configured with the correct HMS panel IP, port, and protocol. 4) Check the HMS panel communication error counter for the SCADA-facing interface. 5) Use Wireshark to confirm whether the HMS panel is transmitting data — if not received by SCADA, the issue is on the SCADA side.",
+        "category": "Scenario-Based Questions",
+        "subcategory": "SCADA Communication",
+        "product": "HMS Panel",
+        "tags": [
+            "SCADA",
+            "communication fault",
+            "network",
+            "Wireshark",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_189",
+        "question": "After a power failure, an HMS panel boots but shows all outputs in an unknown state. What do you do?",
+        "answer": "Steps: 1) Do not operate any process equipment until the panel state is confirmed. 2) Check the HMS panel CPU status — verify it has loaded the correct project. 3) Confirm all I/O modules are recognized and in RUN state. 4) Read current field device states and compare with the HMS panel display. 5) If the panel has initialized outputs to a default/safe state, verify field devices are in the expected state before resuming normal operation. 6) Check for power failure handling logic in the project (e.g., restart inhibit).",
+        "category": "Scenario-Based Questions",
+        "subcategory": "Power Recovery",
+        "product": "HMS Panel",
+        "tags": [
+            "power failure",
+            "output state",
+            "recovery",
+            "boot",
+            "safe state"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_190",
+        "question": "A field sensor reads 22mA on the HMS panel input despite the process being within normal range. What are the likely causes?",
+        "answer": "22mA (above the 20mA full scale) indicates a fault condition. Likely causes: 1) The transmitter is in a fault/error mode and outputting a NAMUR high-fault signal (21.5–23mA). 2) There is an external voltage source on the loop interfering with the signal. 3) The transmitter supply voltage is too high, causing the transmitter to saturate. 4) A wiring fault (short to an external voltage). Check transmitter health, loop supply voltage, and wiring integrity.",
+        "category": "Scenario-Based Questions",
+        "subcategory": "Analog Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "22mA",
+            "NAMUR",
+            "transmitter fault",
+            "analog input",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_191",
+        "question": "You receive a call saying the HMS panel touchscreen is unresponsive. How do you remotely diagnose and resolve this?",
+        "answer": "Remote diagnosis: 1) Connect to the HMS panel via Ethernet using the remote access tool. 2) Check if the HMS CPU is running (verify communication with SCADA, check event log). 3) If CPU is running but screen is unresponsive, the display or touchscreen controller has likely failed. 4) Remotely restart the HMS panel display service if the software supports it. 5) If not resolved remotely, dispatch an engineer to perform a panel reboot or touchscreen calibration/replacement on-site.",
+        "category": "Scenario-Based Questions",
+        "subcategory": "Display Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "touchscreen",
+            "unresponsive",
+            "remote diagnosis",
+            "reboot",
+            "display"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_192",
+        "question": "An HMS panel was working fine but started generating intermittent CRC errors on its Modbus RTU port. What could be the cause?",
+        "answer": "Intermittent CRC errors suggest a change in the physical layer. Common causes: 1) A new piece of electrical equipment (motor, welding machine) has been started nearby, causing EMI. 2) A cable shield has come loose or been accidentally disconnected. 3) A terminal connection has become loose due to vibration, increasing impedance. 4) A new device has been added to the RS-485 bus without proper termination. Investigate physical layer and EMI sources first.",
+        "category": "Scenario-Based Questions",
+        "subcategory": "Modbus Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "CRC error",
+            "Modbus RTU",
+            "EMI",
+            "intermittent",
+            "RS-485"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_193",
+        "question": "You need to add a new instrument to a running HMS panel without taking the system offline. What is your approach?",
+        "answer": "Approach: 1) Prepare and test the new instrument configuration in the HMS project offline (simulation mode). 2) Verify the new tag addition will not interfere with existing program logic. 3) If adding via Modbus, add a new poll command in the scanner — this can often be downloaded online without interrupting existing polling. 4) Wire the new instrument to a spare I/O channel or connect via fieldbus. 5) After download, verify the new instrument reads correctly. Inform the process operator before making any changes.",
+        "category": "Scenario-Based Questions",
+        "subcategory": "Live System Change",
+        "product": "HMS Panel",
+        "tags": [
+            "new instrument",
+            "live system",
+            "Modbus",
+            "I/O channel",
+            "hot addition"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_194",
+        "question": "An HMS panel firmware update was interrupted by a power cut. How do you recover the panel?",
+        "answer": "Recovery procedure: 1) Do not panic — many HMS panels have a dual-boot recovery partition. 2) Reconnect power and allow the panel to attempt self-recovery. 3) If the panel shows a recovery screen or boot mode LED, follow the manufacturer's recovery procedure (e.g., hold reset button, boot from SD card). 4) Use the HMS recovery tool to re-flash firmware via USB or Ethernet in recovery mode. 5) If recovery fails, contact HMS technical support with the panel model and error details.",
+        "category": "Scenario-Based Questions",
+        "subcategory": "Firmware Recovery",
+        "product": "HMS Panel",
+        "tags": [
+            "firmware",
+            "interrupted update",
+            "recovery",
+            "power cut",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_195",
+        "question": "A new engineer has accidentally deleted an active tag from the HMS panel project. How do you recover it?",
+        "answer": "Recovery steps: 1) Do not make any further changes or save the project. 2) Close the project without saving if the deletion was just made. 3) Reopen the last saved version of the project file from the PC backup folder. 4) Alternatively, retrieve the tag definition from the version control system or from a project backup. 5) Re-add the tag with the same name, data type, and address as the original. 6) Re-download the project. 7) Implement version control to prevent recurrence.",
+        "category": "Scenario-Based Questions",
+        "subcategory": "Project Recovery",
+        "product": "HMS Panel",
+        "tags": [
+            "deleted tag",
+            "recovery",
+            "backup",
+            "project",
+            "version control"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_196",
+        "question": "The HMS panel clock keeps drifting by several minutes per day despite NTP being configured. How do you fix this?",
+        "answer": "Investigation steps: 1) Verify NTP is actually synchronizing — check the NTP status page for 'synchronized' status and last sync time. 2) If NTP shows synced but drift persists, the NTP sync interval may be too long — reduce it. 3) Check if the HMS panel is behind a firewall blocking UDP port 123 — NTP may be failing silently. 4) If the RTC (real-time clock) hardware is drifting, the CPU battery may be weak — replace it. 5) Use a GPS-synchronized NTP server for highest accuracy.",
+        "category": "Scenario-Based Questions",
+        "subcategory": "Time Synchronization",
+        "product": "HMS Panel",
+        "tags": [
+            "clock drift",
+            "NTP",
+            "RTC",
+            "battery",
+            "time sync"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_197",
+        "question": "You observe that analog input values on an HMS panel are noisy during motor starts. What corrective actions do you take?",
+        "answer": "Corrective actions: 1) Verify cable shielding is correctly terminated at one end (panel earth) only. 2) Reroute analog cables away from motor power cables, maintaining minimum 200mm separation. 3) Install ferrite cores on the analog cable near the HMS panel. 4) Add EMC filters to the motor drive or power supply. 5) Use galvanically isolated analog input modules to break the noise coupling path. 6) Check earth bonding of the panel and motors to ensure a common earth reference.",
+        "category": "Scenario-Based Questions",
+        "subcategory": "Analog Noise",
+        "product": "HMS Panel",
+        "tags": [
+            "analog noise",
+            "motor",
+            "EMI",
+            "shielding",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_198",
+        "question": "An HMS panel is reporting temperature alarms for the panel enclosure. What do you check and how do you resolve it?",
+        "answer": "Checks: 1) Verify ambient temperature in the panel room — if above 35°C, the panel enclosure will overheat. 2) Check the internal panel thermostat or temperature sensor reading. 3) Inspect the ventilation fan — is it running? Is the filter blocked? 4) Check for obstructions to airflow (cables, foreign objects blocking vents). 5) Check power supply and module load — excessive load increases heat dissipation. Resolution: replace filter, repair fan, add additional cooling, or relocate panel to a cooler environment.",
+        "category": "Scenario-Based Questions",
+        "subcategory": "Thermal Management",
+        "product": "HMS Panel",
+        "tags": [
+            "temperature alarm",
+            "enclosure",
+            "cooling",
+            "fan",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_199",
+        "question": "A PROFIBUS device appears online on the HMS panel but data values are incorrect. How do you investigate this?",
+        "answer": "Investigation steps: 1) Verify the GSD file used in the HMS configuration matches the actual device hardware revision. 2) Check the configured cyclic I/O module slot assignments match the device's actual configuration. 3) Verify the byte order (big-endian vs. little-endian) matches between the device and the HMS mapping. 4) Check data type conversions (e.g., INT vs. UINT vs. FLOAT). 5) Compare raw hex values in the PROFIBUS diagnostic tool with the expected register values from the device documentation.",
+        "category": "Scenario-Based Questions",
+        "subcategory": "PROFIBUS Fault",
+        "product": "HMS Panel",
+        "tags": [
+            "PROFIBUS",
+            "incorrect data",
+            "GSD",
+            "byte order",
+            "troubleshooting"
+        ],
+        "last_reviewed": "2025-01-01"
+    },
+    {
+        "id": "qa_200",
+        "question": "After a plant expansion, the HMS panel's communication scan cycle is too slow. What steps do you take to optimize it?",
+        "answer": "Optimization steps: 1) Review the Modbus poll list and remove any unused or low-priority registers. 2) Increase the baud rate on serial networks if cable length and device support allow. 3) Group Modbus registers into contiguous blocks to minimize the number of poll transactions. 4) Reduce the timeout value on fast-responding devices. 5) Migrate high-frequency data devices to Ethernet (Modbus TCP) if currently on serial. 6) Split the network by adding a second COM port or gateway for a subset of devices. 7) Consider upgrading to a higher-performance HMS panel CPU if the processor is the bottleneck.",
+        "category": "Scenario-Based Questions",
+        "subcategory": "Performance Optimization",
+        "product": "HMS Panel",
+        "tags": [
+            "scan cycle",
+            "optimization",
+            "Modbus",
+            "performance",
+            "baud rate"
+        ],
+        "last_reviewed": "2025-01-01"
+    }
+]
