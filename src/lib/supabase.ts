@@ -31,16 +31,21 @@ const customFetch = (input: any, init?: any) => {
     }) as unknown as Promise<Response>;
 };
 
-// Create Supabase client with our custom networking
+// Singleton Supabase client — created once, reused for all requests
+let _supabase: SupabaseClient | null = null;
+
 export function getSupabase(): SupabaseClient {
-    return createClient(
-        process.env.NEXT_PUBLIC_SUPABASE_URL!,
-        process.env.SUPABASE_SERVICE_ROLE_KEY!,
-        {
-            auth: { persistSession: false },
-            global: { fetch: customFetch as any },
-        }
-    );
+    if (!_supabase) {
+        _supabase = createClient(
+            process.env.NEXT_PUBLIC_SUPABASE_URL!,
+            process.env.SUPABASE_SERVICE_ROLE_KEY!,
+            {
+                auth: { persistSession: false },
+                global: { fetch: customFetch as any },
+            }
+        );
+    }
+    return _supabase;
 }
 
 // Export for use in scripts

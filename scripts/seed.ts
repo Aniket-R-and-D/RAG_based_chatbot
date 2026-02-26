@@ -76,15 +76,17 @@ async function seed() {
 
         // Store in Pinecone database
         console.log(`   ⬆️  Uploading Chunk ${i + 1} to Pinecone...`);
-        await pineconeIndex.upsert([
-            {
-                id: doc.metadata.id,     // Use the actual ID from JSON
-                values: vector,  // The numerical representation
-                metadata: {
-                    text: doc.pageContent,  // The original text reference
-                },
-            }
-        ]);
+        await pineconeIndex.upsert({
+            records: [
+                {
+                    id: doc.metadata.id,     // Use the actual ID from JSON
+                    values: vector,  // The numerical representation
+                    metadata: {
+                        text: doc.pageContent,  // The original text reference
+                    },
+                }
+            ]
+        });
     }
 
     console.log('\n✅ Seeding completed successfully!');
